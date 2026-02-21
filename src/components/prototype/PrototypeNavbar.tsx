@@ -16,6 +16,7 @@ export default function PrototypeNavbar() {
 	const [dropdownOpen, setDropdownOpen] = useState(false);
 	const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 	const dropdownRef = useRef<HTMLDivElement>(null);
+	const buttonRef = useRef<HTMLButtonElement>(null);
 	const { isDark, toggle } = useTheme();
 
 	const toggleDropdown = () => {
@@ -29,7 +30,12 @@ export default function PrototypeNavbar() {
 	// Close dropdown when clicking outside
 	useEffect(() => {
 		const handleClickOutside = (event: MouseEvent) => {
-			if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
+			if (
+				dropdownRef.current &&
+				buttonRef.current &&
+				!dropdownRef.current.contains(event.target as Node) &&
+				!buttonRef.current.contains(event.target as Node)
+			) {
 				setDropdownOpen(false);
 			}
 		};
@@ -83,32 +89,29 @@ export default function PrototypeNavbar() {
 
 					<button
 						id="user-menu-button"
-						onClick={toggleDropdown}
-						className="flex text-sm bg-gray-800 rounded-full focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600"
+						type="button"
+						ref={buttonRef}
+						onClick={() => setDropdownOpen((prev) => !prev)}
+						className="flex rounded-full bg-gray-800 text-sm focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600"
 						aria-expanded={dropdownOpen}
 					>
 						<span className="sr-only">Open user menu</span>
 						<img
-							className="w-10 h-10 rounded-full border-2 border-white dark:border-gray-600 object-cover aspect-square"
+							className="aspect-square h-10 w-10 rounded-full border-2 border-white object-cover dark:border-gray-600"
 							src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 							alt="default user logo"
 						/>
 					</button>
 
-					{/* User Dropdown */}
 					{dropdownOpen && (
 						<div
 							ref={dropdownRef}
 							id="user-dropdown"
-							className="absolute top-full right-0 mt-0 w-48 bg-background divide-y divide-foreground/10 rounded-lg shadow-xl border border-border z-50"
+							className="absolute right-0 top-0.5 mt-2 w-48 divide-y divide-foreground/10 rounded-lg bg-background shadow-lg border border-border"
 						>
 							<div className="px-4 py-3">
-								<span className="block text-sm text-foreground font-medium">
-									Sarah Thompson
-								</span>
-								<span className="block text-sm text-muted-foreground truncate">
-									name@example.ca
-								</span>
+								<span className="block text-sm text-foreground">Sarah Thompson</span>
+								<span className="block truncate text-sm text-muted-foreground">name@example.ca</span>
 							</div>
 							<ul className="py-2">
 								<li>
