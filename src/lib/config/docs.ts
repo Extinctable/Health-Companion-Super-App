@@ -8,12 +8,8 @@ type DocsConfig = {
 export const docsConfig: DocsConfig = {
 	mainNav: [
 		{
-			title: 'Home',
-			href: '/home'
-		},
-		{
-			title: 'About',
-			href: '/about'
+			title: 'Dashboard',
+			href: '/dashboard'
 		},
 		{
 			title: 'Appointments',
@@ -22,10 +18,6 @@ export const docsConfig: DocsConfig = {
 		{
 			title: 'Medications',
 			href: '/medications'
-		},
-		{
-			title: 'Dashboard',
-			href: '/dashboard'
 		},
 		{
 			title: 'Reminders',
@@ -37,8 +29,8 @@ export const docsConfig: DocsConfig = {
 			title: 'Features',
 			items: [
 				{
-					title: 'Home',
-					href: '/home'
+					title: 'Dashboard',
+					href: '/dashboard'
 				},
 				{
 					title: 'Appointments',
@@ -49,16 +41,8 @@ export const docsConfig: DocsConfig = {
 					href: '/medications'
 				},
 				{
-					title: 'Dashboard',
-					href: '/dashboard'
-				},
-				{
 					title: 'Reminders',
 					href: '/reminders'
-				},
-				{
-					title: 'Settings',
-					href: '/settings'
 				}
 			]
 		}

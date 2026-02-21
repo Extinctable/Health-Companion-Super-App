@@ -14,22 +14,13 @@ export default function MainNav() {
 			</Link>
 			<nav className="flex items-center gap-6 text-sm">
 				<Link
-					to="/home"
+					to="/dashboard"
 					className={cn(
 						'transition-colors hover:text-foreground/80',
-						location.pathname === '/home' ? 'text-foreground' : 'text-foreground/60'
+						location.pathname === '/dashboard' ? 'text-foreground' : 'text-foreground/60'
 					)}
 				>
-					Home
-				</Link>
-				<Link
-					to="/about"
-					className={cn(
-						'transition-colors hover:text-foreground/80',
-						location.pathname === '/about' ? 'text-foreground' : 'text-foreground/60'
-					)}
-				>
-					About
+					Dashboard
 				</Link>
 				<Link
 					to="/appointments"
@@ -50,13 +41,13 @@ export default function MainNav() {
 					Medications
 				</Link>
 				<Link
-					to="/dashboard"
+					to="/reminders"
 					className={cn(
 						'transition-colors hover:text-foreground/80',
-						location.pathname === '/dashboard' ? 'text-foreground' : 'text-foreground/60'
+						location.pathname === '/reminders' ? 'text-foreground' : 'text-foreground/60'
 					)}
 				>
-					Dashboard
+					Reminders
 				</Link>
 			</nav>
 		</div>
