@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Landing from './pages/Landing';
 import Home from './pages/Home';
 import About from './pages/About';
 import PrototypeLayout from './pages/showcase/PrototypeLayout';
@@ -24,7 +25,8 @@ export default function App() {
 	return (
 		<BrowserRouter basename="/Health-Companion-Super-App/">
 			<Routes>
-				<Route path="/" element={<Home />} />
+				<Route path="/" element={<Landing />} />
+				<Route path="/home" element={<Home />} />
 				<Route path="/about" element={<About />} />
 				<Route path="/showcase" element={<PrototypeLayout />}>
 					<Route index element={<ShowcaseHome />} />
