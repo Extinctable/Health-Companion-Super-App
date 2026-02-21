@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 export default function SiteFooter() {
 	return (
 		<footer className="border-t bg-background py-8">
@@ -6,17 +8,17 @@ export default function SiteFooter() {
                     <a href="https://www.github.com/extinctable"> <u>Massimo Caruso</u>.</a> All rights reserved.
                 </p>
 				<div className="mt-4 flex justify-center space-x-4">
-					<a href="/about" className="hover:text-foreground">
+					<Link to="/prototype/about" className="hover:text-foreground">
 						Privacy
-					</a>
+					</Link>
 					<span>•</span>
-					<a href="/about" className="hover:text-foreground">
+					<Link to="/prototype/about" className="hover:text-foreground">
 						Terms
-					</a>
+					</Link>
 					<span>•</span>
-					<a href="/about" className="hover:text-foreground">
+					<Link to="/prototype/about" className="hover:text-foreground">
 						Contact
-					</a>
+					</Link>
 				</div>
 			</div>
 		</footer>
