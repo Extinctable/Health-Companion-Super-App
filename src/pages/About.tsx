@@ -1,4 +1,5 @@
 import SiteHeader from '../components/SiteHeader';
+import Breadcrumb from '../components/Breadcrumb';
 import SiteFooter from '../components/SiteFooter';
 import { resources } from './about/copyright';
 
@@ -6,6 +7,7 @@ export default function About() {
 	return (
 		<div className="relative flex min-h-screen flex-col bg-background">
 			<SiteHeader />
+			<Breadcrumb />
 			<main className="flex-1 border-b">
 				<section className="mx-auto max-w-screen-xl px-4 py-8 text-justify lg:px-6 lg:py-16">
 					<div className="mb-16">

@@ -32,11 +32,11 @@ export default function Home() {
 							A case study for a "super app" to help manage personal healthcare with ease.
 						</p>
 						<div className="flex justify-center space-x-4">
-							<Button href="/showcase">
+							<Button href="/prototype/showcase">
 								Explore Prototype
 								<ArrowRight className="ml-1 h-4 w-4" />
 							</Button>
-							<Button variant="outline" href="/deliverables">
+							<Button variant="outline" href="/prototype/deliverables">
 								Deliverable Reports
 							</Button>
 						</div>
