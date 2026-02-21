@@ -8,16 +8,12 @@ type DocsConfig = {
 export const docsConfig: DocsConfig = {
 	mainNav: [
 		{
-			title: 'Deliverables',
-			href: '/deliverables'
-		},
-		{
 			title: 'About',
-			href: '/about'
+			href: '/prototype/about'
 		},
 		{
 			title: 'Showcase',
-			href: '/showcase'
+			href: '/prototype/showcase'
 		}
 	],
 	sidebarNav: [

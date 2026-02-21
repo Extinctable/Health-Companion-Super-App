@@ -1,6 +1,6 @@
 export const siteConfig = {
 	name: 'Health Companion',
-	url: 'https://health-companion-super-app.vercel.app/',
+	url: 'https://extinctable.github.io/Health-Companion-Super-App/prototype',
 	description:
 		'SOEN 357 Case Study: UX/UI Design of a Health Companion Super App. Concordia University, Winter 2026.',
 	links: {
