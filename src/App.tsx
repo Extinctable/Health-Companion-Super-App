@@ -3,7 +3,6 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Landing from './pages/Landing';
 import Home from './pages/Home';
 import About from './pages/About';
-import PrototypeLayout from './pages/showcase/PrototypeLayout';
 import ShowcaseHome from './pages/showcase/ShowcaseHome';
 import Appointments from './pages/showcase/Appointments';
 import Medications from './pages/showcase/Medications';
@@ -26,17 +25,15 @@ export default function App() {
 		<BrowserRouter basename="/Health-Companion-Super-App/">
 			<Routes>
 				<Route path="/" element={<Landing />} />
-				<Route path="/showcase" element={<PrototypeLayout />}>
-					<Route index element={<Home />} />
-					<Route path="about" element={<About />} />
-					<Route path="showcase-home" element={<ShowcaseHome />} />
-					<Route path="appointments" element={<Appointments />} />
-					<Route path="medications" element={<Medications />} />
-					<Route path="dashboard" element={<Dashboard />} />
-					<Route path="reminders" element={<Reminders />} />
-					<Route path="settings" element={<Settings />} />
-					<Route path="logout" element={<Logout />} />
-				</Route>
+				<Route path="/home" element={<Home />} />
+				<Route path="/about" element={<About />} />
+				<Route path="/showcase-home" element={<ShowcaseHome />} />
+				<Route path="/appointments" element={<Appointments />} />
+				<Route path="/medications" element={<Medications />} />
+				<Route path="/dashboard" element={<Dashboard />} />
+				<Route path="/reminders" element={<Reminders />} />
+				<Route path="/settings" element={<Settings />} />
+				<Route path="/logout" element={<Logout />} />
 			</Routes>
 		</BrowserRouter>
 	);

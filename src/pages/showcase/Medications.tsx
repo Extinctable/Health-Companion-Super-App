@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { Edit2, Pill, PlusCircle, Search, Check } from 'lucide-react';
 import Button from '../../components/ui/Button';
 import Input from '../../components/ui/Input';
+import SiteHeader from '../../components/SiteHeader';
 import Breadcrumb from '../../components/Breadcrumb';
 import SiteFooter from '../../components/SiteFooter';
 
@@ -81,7 +82,8 @@ export default function Medications() {
 	};
 
 	return (
-		<div className="flex min-h-screen flex-col">
+		<div className="flex min-h-screen flex-col bg-background">
+			<SiteHeader />
 			<Breadcrumb />
 			<div className="flex-1 space-y-8 px-6 py-8 sm:px-8">
 				<div className="flex flex-col justify-between space-y-4 sm:flex-row sm:items-center sm:space-y-0">

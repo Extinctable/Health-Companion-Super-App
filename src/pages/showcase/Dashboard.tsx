@@ -1,5 +1,6 @@
 import { Activity, Calendar, Download, Pill, Users } from 'lucide-react';
 import Button from '../../components/ui/Button';
+import SiteHeader from '../../components/SiteHeader';
 import Breadcrumb from '../../components/Breadcrumb';
 import SiteFooter from '../../components/SiteFooter';
 import DatePickerWithRange from './components/DatePickerWithRange';
@@ -8,7 +9,8 @@ import RecentAppointments from './components/RecentAppointments';
 
 export default function Dashboard() {
 	return (
-		<div className="flex min-h-screen flex-col">
+		<div className="flex min-h-screen flex-col bg-background">
+			<SiteHeader />
 			<Breadcrumb />
 			<div className="flex-1 space-y-4 px-6 py-8 sm:px-8">
 				<div className="flex flex-col justify-between space-y-4 md:flex-row md:items-center md:space-y-0 md:space-x-2">

@@ -3,6 +3,7 @@ import { Loader2, Chrome } from 'lucide-react';
 import Button from '../../components/ui/Button';
 import Input from '../../components/ui/Input';
 import Label from '../../components/ui/Label';
+import SiteHeader from '../../components/SiteHeader';
 import Breadcrumb from '../../components/Breadcrumb';
 import SiteFooter from '../../components/SiteFooter';
 
@@ -18,7 +19,8 @@ export default function Logout() {
 	};
 
 	return (
-		<div className="flex min-h-screen flex-col">
+		<div className="flex min-h-screen flex-col bg-background">
+			<SiteHeader />
 			<Breadcrumb />
 			<div className="flex-1 px-6 py-12 sm:px-8 md:px-12">
 				<div className="grid gap-16 lg:grid-cols-2">
