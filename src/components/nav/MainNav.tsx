@@ -31,6 +31,15 @@ export default function MainNav() {
 				>
 					Showcase
 				</Link>
+				<Link
+					to="/prototype/deliverables"
+					className={cn(
+						'transition-colors hover:text-foreground/80',
+						location.pathname === '/prototype/deliverables' ? 'text-foreground' : 'text-foreground/60'
+					)}
+				>
+					Deliverables
+				</Link>
 			</nav>
 		</div>
 	);

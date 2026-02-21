@@ -100,7 +100,7 @@ export default function PrototypeNavbar() {
 						<div
 							ref={dropdownRef}
 							id="user-dropdown"
-							className="absolute top-12 right-0 w-48 bg-background divide-y divide-foreground/10 rounded-lg shadow-lg border border-border"
+							className="absolute top-full right-0 mt-0 w-48 bg-background divide-y divide-foreground/10 rounded-lg shadow-xl border border-border z-50"
 						>
 							<div className="px-4 py-3">
 								<span className="block text-sm text-foreground font-medium">
