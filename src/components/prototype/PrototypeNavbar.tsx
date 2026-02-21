@@ -30,7 +30,7 @@ export default function PrototypeNavbar() {
 	return (
 		<nav className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
 			<div className="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between p-4">
-				<Link to="/" className="flex items-center space-x-3 rtl:space-x-reverse">
+				<Link to="/showcase" className="flex items-center space-x-3 rtl:space-x-reverse">
 					<Logo className="h-6 w-6" />
 					<span className="self-center whitespace-nowrap text-md font-semibold sm:text-lg">App Prototype</span>
 				</Link>
@@ -47,6 +47,9 @@ export default function PrototypeNavbar() {
 				</button>
 
 				<div className="hidden space-x-8 rtl:space-x-reverse md:flex">
+					<Link to="/showcase" className="text-foreground transition-colors hover:text-primary">
+						Home
+					</Link>
 					<Link to="/showcase/appointments" className="text-foreground transition-colors hover:text-primary">
 						Appointments
 					</Link>
@@ -115,6 +118,9 @@ export default function PrototypeNavbar() {
 
 			{mobileMenuOpen && (
 				<div className="space-y-2 bg-background/95 p-4 md:hidden">
+					<Link to="/showcase" className="block text-foreground/80 hover:text-foreground">
+						Home
+					</Link>
 					<Link to="/showcase/appointments" className="block text-foreground/80 hover:text-foreground">
 						Appointments
 					</Link>

@@ -26,10 +26,10 @@ export default function App() {
 		<BrowserRouter basename="/Health-Companion-Super-App/">
 			<Routes>
 				<Route path="/" element={<Landing />} />
-				<Route path="/home" element={<Home />} />
-				<Route path="/about" element={<About />} />
 				<Route path="/showcase" element={<PrototypeLayout />}>
-					<Route index element={<ShowcaseHome />} />
+					<Route index element={<Home />} />
+					<Route path="about" element={<About />} />
+					<Route path="showcase-home" element={<ShowcaseHome />} />
 					<Route path="appointments" element={<Appointments />} />
 					<Route path="medications" element={<Medications />} />
 					<Route path="dashboard" element={<Dashboard />} />
@@ -40,4 +40,4 @@ export default function App() {
 			</Routes>
 		</BrowserRouter>
 	);
-}
+};
