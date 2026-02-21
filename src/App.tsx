@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Landing from './pages/Landing';
 import Home from './pages/Home';
 import About from './pages/About';
+import Deliverables from './pages/Deliverables';
 import PrototypeLayout from './pages/showcase/PrototypeLayout';
 import ShowcaseHome from './pages/showcase/ShowcaseHome';
 import Appointments from './pages/showcase/Appointments';
@@ -28,6 +29,7 @@ export default function App() {
 				<Route path="/" element={<Landing />} />
 				<Route path="/prototype" element={<Home />} />
 				<Route path="/prototype/about" element={<About />} />
+				<Route path="/prototype/deliverables" element={<Deliverables />} />
 				<Route path="/prototype/showcase" element={<PrototypeLayout />}>
 					<Route index element={<ShowcaseHome />} />
 					<Route path="appointments" element={<Appointments />} />

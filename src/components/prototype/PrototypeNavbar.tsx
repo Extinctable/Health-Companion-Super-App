@@ -1,6 +1,8 @@
 import { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
+import ModeToggle from '../ModeToggle';
+import { useTheme } from '../../lib/hooks/useTheme';
 
 const navLinks = [
 	{ label: 'Appointments', href: '/prototype/showcase/appointments' },
@@ -13,6 +15,7 @@ export default function PrototypeNavbar() {
 	const [dropdownOpen, setDropdownOpen] = useState(false);
 	const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 	const dropdownRef = useRef<HTMLDivElement>(null);
+	const { isDark, toggle } = useTheme();
 
 	const toggleDropdown = () => {
 		setDropdownOpen(!dropdownOpen);
@@ -74,6 +77,8 @@ export default function PrototypeNavbar() {
 
 				{/* User Profile Menu */}
 				<div className="relative flex items-center space-x-4">
+					<ModeToggle isDark={isDark} onChange={toggle} />
+
 					<button
 						id="user-menu-button"
 						onClick={toggleDropdown}
