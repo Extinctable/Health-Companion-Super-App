@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { cn } from '../../lib/utils/cn';
 
 interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
@@ -24,9 +25,9 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
 
 		if (href) {
 			return (
-				<a href={href} className={buttonClass}>
+				<Link to={href} className={buttonClass}>
 					{children}
-				</a>
+				</Link>
 			);
 		}
 
