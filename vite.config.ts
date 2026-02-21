@@ -4,6 +4,10 @@ import path from 'path';
 
 export default defineConfig({
 	plugins: [react()],
+	base: '/Health-Companion-Super-App/',
+	build: {
+		outDir: 'dist'
+	},
 	resolve: {
 		alias: {
 			'@': path.resolve(__dirname, './src'),

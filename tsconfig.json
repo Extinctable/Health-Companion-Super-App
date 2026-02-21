@@ -28,17 +28,17 @@
 		/* Path aliases */
 		"baseUrl": ".",
 		"paths": {
-			"@": ["src"],
-			"@lib": ["src/lib"],
-			"@components": ["src/lib/components"],
-			"@ui": ["src/lib/components/ui"],
-			"@hooks": ["src/lib/hooks"],
-			"@utils": ["src/lib/utils"],
-			"@assets": ["src/lib/assets"],
-			"@config": ["src/lib/config"],
-			"@types": ["src/lib/types"]
+			"@": ["app/src"],
+			"@lib": ["app/src/lib"],
+			"@components": ["app/src/lib/components"],
+			"@ui": ["app/src/lib/components/ui"],
+			"@hooks": ["app/src/lib/hooks"],
+			"@utils": ["app/src/lib/utils"],
+			"@assets": ["app/src/lib/assets"],
+			"@config": ["app/src/lib/config"],
+			"@types": ["app/src/lib/types"]
 		}
 	},
-	"include": ["src"],
+	"include": ["app/src"],
 	"references": [{ "path": "./tsconfig.node.json" }]
 }
