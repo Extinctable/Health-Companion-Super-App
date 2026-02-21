@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
 import ModeToggle from '../ModeToggle';
 import { useTheme } from '../../lib/hooks/useTheme';
+import Logo from '../icons/Logo';
 
 const navLinks = [
 	{ label: 'Appointments', href: '/prototype/showcase/appointments' },
@@ -41,9 +42,10 @@ export default function PrototypeNavbar() {
 		<nav className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
 			<div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
 				{/* Logo */}
-				<Link to="/" className="flex items-center space-x-3">
+				<Link to="/" className="flex items-center space-x-2">
+					<Logo className="w-6 h-6" />
 					<span className="self-center text-md sm:text-lg font-semibold whitespace-nowrap">
-						App Prototype
+						Health Companion
 					</span>
 				</Link>
 
