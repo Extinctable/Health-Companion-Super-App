@@ -1,6 +1,5 @@
 import { AlarmClock, AppWindow, ArrowRight, ClipboardList, Cog, LogIn, Pill } from 'lucide-react';
 import Button from '../../components/ui/Button';
-import SiteHeader from '../../components/SiteHeader';
 import Breadcrumb from '../../components/Breadcrumb';
 import SiteFooter from '../../components/SiteFooter';
 import DotPattern from '../../components/animation/DotPattern';
@@ -11,7 +10,7 @@ const showcaseSections = [
 		description: 'View and book appointments with doctors.',
 		imageUrl:
 			'https://images.unsplash.com/photo-1633526543814-9718c8922b7a?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-		link: '/appointments',
+		link: '/showcase/appointments',
 		icon: AppWindow
 	},
 	{
@@ -19,7 +18,7 @@ const showcaseSections = [
 		description: 'Track and manage your medications.',
 		imageUrl:
 			'https://images.unsplash.com/photo-1563213126-a4273aed2016?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-		link: '/medications',
+		link: '/showcase/medications',
 		icon: Pill
 	},
 	{
@@ -27,7 +26,7 @@ const showcaseSections = [
 		description: 'Get an overview of your health and reminders.',
 		imageUrl:
 			'https://images.unsplash.com/photo-1549890762-0a3f8933bc76?q=80&w=1568&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-		link: '/dashboard',
+		link: '/showcase/dashboard',
 		icon: ClipboardList
 	},
 	{
@@ -35,7 +34,7 @@ const showcaseSections = [
 		description: 'Set and track reminders for medications and appointments.',
 		imageUrl:
 			'https://images.unsplash.com/photo-1624969862293-b749659ccc4e?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-		link: '/reminders',
+		link: '/showcase/reminders',
 		icon: AlarmClock
 	},
 	{
@@ -43,7 +42,7 @@ const showcaseSections = [
 		description: 'Customize your preferences, enable a11y settings, and more.',
 		imageUrl:
 			'https://images.unsplash.com/photo-1563641749712-028dfeab14b3?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Z2VhcnxlbnwwfHwwfHx8MA%3D%3D',
-		link: '/settings',
+		link: '/showcase/settings',
 		icon: Cog
 	},
 	{
@@ -51,7 +50,7 @@ const showcaseSections = [
 		description: 'An example page for logging in to access your profile and data.',
 		imageUrl:
 			'https://images.unsplash.com/photo-1614064548237-096f735f344f?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-		link: '/logout',
+		link: '/showcase/logout',
 		icon: LogIn
 	}
 ];

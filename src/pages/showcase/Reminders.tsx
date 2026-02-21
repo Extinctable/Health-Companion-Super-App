@@ -3,7 +3,6 @@ import { Plus, Pencil, Trash2 } from 'lucide-react';
 import Button from '../../components/ui/Button';
 import Input from '../../components/ui/Input';
 import Label from '../../components/ui/Label';
-import SiteHeader from '../../components/SiteHeader';
 import Breadcrumb from '../../components/Breadcrumb';
 import SiteFooter from '../../components/SiteFooter';
 
@@ -103,8 +102,7 @@ export default function Reminders() {
 	};
 
 	return (
-		<div className="flex min-h-screen flex-col bg-background">
-			<SiteHeader />
+		<div className="flex min-h-screen flex-col">
 			<Breadcrumb />
 			<div className="flex-1">
 				<div className="space-y-8 px-6 py-8 sm:px-8">

@@ -2,7 +2,6 @@ import { useMemo, useState } from 'react';
 import { Calendar, MapPin, MessageCircle, Search, X } from 'lucide-react';
 import Button from '../../components/ui/Button';
 import Input from '../../components/ui/Input';
-import SiteHeader from '../../components/SiteHeader';
 import Breadcrumb from '../../components/Breadcrumb';
 import SiteFooter from '../../components/SiteFooter';
 

@@ -3,7 +3,6 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Landing from './pages/Landing';
 import Home from './pages/Home';
 import About from './pages/About';
-import ShowcaseHome from './pages/showcase/ShowcaseHome';
 import Appointments from './pages/showcase/Appointments';
 import Medications from './pages/showcase/Medications';
 import Dashboard from './pages/showcase/Dashboard';
@@ -27,7 +26,6 @@ export default function App() {
 				<Route path="/" element={<Landing />} />
 				<Route path="/home" element={<Home />} />
 				<Route path="/about" element={<About />} />
-				<Route path="/showcase-home" element={<ShowcaseHome />} />
 				<Route path="/appointments" element={<Appointments />} />
 				<Route path="/medications" element={<Medications />} />
 				<Route path="/dashboard" element={<Dashboard />} />

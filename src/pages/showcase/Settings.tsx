@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import SiteHeader from '../../components/SiteHeader';
 import Breadcrumb from '../../components/Breadcrumb';
 import SiteFooter from '../../components/SiteFooter';
 
@@ -47,8 +46,7 @@ export default function Settings() {
 	};
 
 	return (
-		<div className="flex min-h-screen flex-col bg-background">
-			<SiteHeader />
+		<div className="flex min-h-screen flex-col">
 			<Breadcrumb />
 			<div className="space-y-6 bg-background p-6" role="main" aria-labelledby="user-settings-heading">
 				<h1 id="user-settings-heading" className="text-2xl font-semibold text-foreground">
