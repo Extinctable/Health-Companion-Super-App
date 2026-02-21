@@ -6,7 +6,7 @@ export default defineConfig({
 	plugins: [react()],
 	base: '/Health-Companion-Super-App/',
 	build: {
-		outDir: 'dist'
+		outDir: 'docs'
 	},
 	resolve: {
 		alias: {
