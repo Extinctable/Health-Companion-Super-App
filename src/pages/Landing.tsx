@@ -64,7 +64,7 @@ export default function Landing() {
 				{/* Call to Action Button */}
 				<div className="mt-12 flex justify-center">
 					<button
-						onClick={() => navigate('/home')}
+						onClick={() => navigate('/prototype')}
 						className="inline-flex items-center gap-2 rounded-lg bg-emerald-600 px-8 py-3 text-lg font-semibold text-white transition-colors hover:bg-emerald-700 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:ring-offset-2 dark:focus:ring-offset-slate-950"
 					>
 						🚀 Start Interactive Prototype

@@ -8,46 +8,37 @@ export default function MainNav() {
 
 	return (
 		<div className="mr-4 hidden md:flex">
-			<Link to="/home" className="mr-6 flex items-center space-x-2">
+			<Link to="/" className="mr-6 flex items-center space-x-2">
 				<Logo className="h-6 w-6" />
 				<span className="hidden font-bold md:inline-block">{siteConfig.name}</span>
 			</Link>
 			<nav className="flex items-center gap-6 text-sm">
 				<Link
-					to="/dashboard"
+					to="/deliverables"
 					className={cn(
 						'transition-colors hover:text-foreground/80',
-						location.pathname === '/dashboard' ? 'text-foreground' : 'text-foreground/60'
+						location.pathname === '/deliverables' ? 'text-foreground' : 'text-foreground/60'
 					)}
 				>
-					Dashboard
+					Deliverables
 				</Link>
 				<Link
-					to="/appointments"
+					to="/about"
 					className={cn(
 						'transition-colors hover:text-foreground/80',
-						location.pathname === '/appointments' ? 'text-foreground' : 'text-foreground/60'
+						location.pathname.startsWith('/about') ? 'text-foreground' : 'text-foreground/60'
 					)}
 				>
-					Appointments
+					About
 				</Link>
 				<Link
-					to="/medications"
+					to="/showcase"
 					className={cn(
 						'transition-colors hover:text-foreground/80',
-						location.pathname === '/medications' ? 'text-foreground' : 'text-foreground/60'
+						location.pathname.startsWith('/showcase') ? 'text-foreground' : 'text-foreground/60'
 					)}
 				>
-					Medications
-				</Link>
-				<Link
-					to="/reminders"
-					className={cn(
-						'transition-colors hover:text-foreground/80',
-						location.pathname === '/reminders' ? 'text-foreground' : 'text-foreground/60'
-					)}
-				>
-					Reminders
+					Showcase
 				</Link>
 			</nav>
 		</div>

@@ -8,41 +8,41 @@ type DocsConfig = {
 export const docsConfig: DocsConfig = {
 	mainNav: [
 		{
-			title: 'Dashboard',
-			href: '/dashboard'
+			title: 'Deliverables',
+			href: '/deliverables'
 		},
 		{
-			title: 'Appointments',
-			href: '/appointments'
+			title: 'About',
+			href: '/about'
 		},
 		{
-			title: 'Medications',
-			href: '/medications'
-		},
-		{
-			title: 'Reminders',
-			href: '/reminders'
+			title: 'Showcase',
+			href: '/showcase'
 		}
 	],
 	sidebarNav: [
 		{
-			title: 'Features',
+			title: 'List of Deliverables',
 			items: [
 				{
-					title: 'Dashboard',
-					href: '/dashboard'
+					title: 'Research and Personas',
+					href: '/deliverables/01-research-personas'
 				},
 				{
-					title: 'Appointments',
-					href: '/appointments'
+					title: 'User Journey Mapping',
+					href: '/deliverables/02-journey-map'
 				},
 				{
-					title: 'Medications',
-					href: '/medications'
+					title: 'Wireframing and Prototypes',
+					href: '/deliverables/03-wireframing-prototype-design'
 				},
 				{
-					title: 'Reminders',
-					href: '/reminders'
+					title: 'Usability Testing',
+					href: '/deliverables/04-usability-testing'
+				},
+				{
+					title: 'Reflection',
+					href: '/deliverables/05-reflection'
 				}
 			]
 		}

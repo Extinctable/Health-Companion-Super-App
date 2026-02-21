@@ -24,7 +24,7 @@ export default function MobileNav() {
 			{open && (
 				<div className="fixed inset-0 z-50 bg-background/95 p-6">
 					<div className="flex items-center justify-between">
-						<Link to="/home" className="flex items-center" onClick={close}>
+						<Link to="/" className="flex items-center" onClick={close}>
 							<Logo className="mr-2 h-4 w-4" />
 							<span className="font-bold">{siteConfig.name}</span>
 						</Link>
