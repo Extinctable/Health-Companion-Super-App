@@ -11,7 +11,7 @@ Through my research, I found that managing a chronic condition is often a source
 
 Based on the identified problems and supported by comprehensive user research, the Health Companion Super App proposes an integrated mobile solution that consolidates fragmented healthcare tools into a single interface. The design prioritizes user empowerment through simplified medication management, streamlined appointment scheduling, and intelligent reminders—all designed to reduce cognitive overload and improve medication adherence rates among chronic disease patients [4].
 
----
+<!---->
 
 # 2. User Research
 ## 2.1 Primary Research
@@ -62,7 +62,7 @@ Secondary research includes analyzing existing health apps, and reading medical 
 ## 2.3 Key Insights
 Main findings from the research reveal that users managing chronic conditions face cognitive overload from fragmented tools, miss medication doses due to poor reminder systems, and lack integrated communication with healthcare providers. These insights directly informed the Health Companion design approach: centralized interface, intelligent medication tracking, appointment management, and comprehensive reminder system—all designed to reduce user burden and improve health outcomes.
 
----
+<!---->
 
 # 3. Persona Creation
 The goal behind the three distinct and comprehensive user personas is to ensure that the healthcare app addresses and meets the needs of diverse user needs. These needs include varying health literacy levels, different medication complexity, and distinct comfort with mobile apps. A comprehensive persona set validates that Health Companion must serve multiple user types simultaneously.
@@ -153,43 +153,43 @@ This final wireframe represents a secure authentication flow for a logout/login 
 # 6. Prototypes
 ## 6.1 Component 1: Homepage
 
-Check out the [Homepage](https://extinctable.github.io/Health-Companion-Super-App/prototype)
+Check out the [Homepage](/Health-Companion-Super-App/prototype)
 
 Words
 
 ## 6.2 Component 2: Dashboard
 
-Check out the [Dashboard](https://extinctable.github.io/Health-Companion-Super-App/prototype/showcase/dashboard)
+Check out the [Dashboard](/Health-Companion-Super-App/prototype/showcase/dashboard)
 
 Words
 
 ## 6.3 Component 3: Appointments
 
-Check out the [Appointments](https://extinctable.github.io/Health-Companion-Super-App/prototype/showcase/appointments)
+Check out the [Appointments](/Health-Companion-Super-App/prototype/showcase/appointments)
 
 Words
 
 ## 6.4 Component 4: Medications
 
-Check out the [Medications](https://extinctable.github.io/Health-Companion-Super-App/prototype/showcase/medications)
+Check out the [Medications](/Health-Companion-Super-App/prototype/showcase/medications)
 
 Words
 
 ## 6.5 Component 5: Reminders
 
-Check out the [Reminders](https://extinctable.github.io/Health-Companion-Super-App/prototype/showcase/reminders)
+Check out the [Reminders](/Health-Companion-Super-App/prototype/showcase/reminders)
 
 Words
 
 ## 6.6 Component 6: Settings
 
-Check out the [Settings](https://extinctable.github.io/Health-Companion-Super-App/prototype/showcase/settings)
+Check out the [Settings](/Health-Companion-Super-App/prototype/showcase/settings)
 
 Words
 
 ## 6.7 Component 7: Authentication
 
-Check out the [Authentication](https://extinctable.github.io/Health-Companion-Super-App/prototype/showcase/logout)
+Check out the [Authentication](/Health-Companion-Super-App/prototype/showcase/logout)
 
 Words
 
@@ -230,13 +230,7 @@ Words
 
 ---
 
-## 9. Explore the Prototype
-
-Ready to experience the interactive prototype? Click the button below to dive in and explore all the features of the Health Companion Super App.
-
----
-
-# 10. References
+# 9. References
 
 [1] Bodenheimer, T., Lorig, K., Holman, H., & Grumbach, K. (2002). Patient self-management of chronic disease in primary care. *JAMA*, 288(19), 2469-2475. https://doi.org/10.1001/jama.288.19.2469
 
@@ -257,6 +251,12 @@ Ready to experience the interactive prototype? Click the button below to dive in
 [9] Stellefson, M., Dipnarine, K., & Stopka, C. (2013). The chronic care model and diabetes management in US primary care settings: A systematic review. *Preventing Chronic Disease*, 10, E26. https://doi.org/10.5888/pcd10.120180
 
 [10] Brooke, J. (1996). SUS: A "quick and dirty" usability scale. In P. W. Jordan, B. Thomas, B. A. Weerdmeester, & I. L. McClelland (Eds.), *Usability evaluation in industry* (pp. 189-194). London: Taylor & Francis.
+
+---
+
+## 10. Explore the Prototype
+
+Ready to experience the interactive prototype? Click the button below to dive in and explore all the features of the Health Companion Super App.
 
 ---
 
