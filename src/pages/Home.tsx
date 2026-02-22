@@ -68,7 +68,7 @@ export default function Home() {
 								className="rounded-sm"
 								width={800}
 								height={450}
-								src="https://embed.figma.com/board/jzcSctJtZTzZmrwf0H0fdr/User-Journey-Maps?embed-host=share"
+								src="https://embed.figma.com/board/HR6b0IrzITP1YSyyUXwuAo/SOEN-357---Mini-Project?embed-host=share"
 								allowFullScreen
 							/>
 						</div>
