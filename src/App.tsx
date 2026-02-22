@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, useNavigate } from 'react-router-dom';
 import Landing from './pages/Landing';
 import Home from './pages/Home';
 import About from './pages/About';
@@ -14,7 +14,18 @@ import Settings from './pages/showcase/Settings';
 import Logout from './pages/showcase/Logout';
 import './App.css';
 
-export default function App() {
+function AppRoutes() {
+	const navigate = useNavigate();
+
+	useEffect(() => {
+		// Handle 404.html redirects by checking sessionStorage for pending paths
+		const pendingPath = sessionStorage.getItem('pendingPath');
+		if (pendingPath) {
+			sessionStorage.removeItem('pendingPath');
+			navigate(pendingPath);
+		}
+	}, [navigate]);
+
 	useEffect(() => {
 		// Initialize dark mode from system preference or localStorage
 		const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
@@ -24,22 +35,28 @@ export default function App() {
 	}, []);
 
 	return (
+		<Routes>
+			<Route path="/" element={<Landing />} />
+			<Route path="/prototype" element={<Home />} />
+			<Route path="/prototype/about" element={<About />} />
+			<Route path="/prototype/deliverables" element={<Deliverables />} />
+			<Route path="/prototype/showcase" element={<PrototypeLayout />}>
+				<Route index element={<ShowcaseHome />} />
+				<Route path="appointments" element={<Appointments />} />
+				<Route path="medications" element={<Medications />} />
+				<Route path="dashboard" element={<Dashboard />} />
+				<Route path="reminders" element={<Reminders />} />
+				<Route path="settings" element={<Settings />} />
+				<Route path="logout" element={<Logout />} />
+			</Route>
+		</Routes>
+	);
+}
+
+export default function App() {
+	return (
 		<BrowserRouter basename="/Health-Companion-Super-App/">
-			<Routes>
-				<Route path="/" element={<Landing />} />
-				<Route path="/prototype" element={<Home />} />
-				<Route path="/prototype/about" element={<About />} />
-				<Route path="/prototype/deliverables" element={<Deliverables />} />
-				<Route path="/prototype/showcase" element={<PrototypeLayout />}>
-					<Route index element={<ShowcaseHome />} />
-					<Route path="appointments" element={<Appointments />} />
-					<Route path="medications" element={<Medications />} />
-					<Route path="dashboard" element={<Dashboard />} />
-					<Route path="reminders" element={<Reminders />} />
-					<Route path="settings" element={<Settings />} />
-					<Route path="logout" element={<Logout />} />
-				</Route>
-			</Routes>
+			<AppRoutes />
 		</BrowserRouter>
 	);
-};
+}

@@ -1,3 +1,59 @@
+# Health Companion Super App - UX Strategy Case Study
+
+## Table of Contents
+
+1. [Introduction](#1-introduction)
+   - [1.1 Project Overview](#11-project-overview)
+   - [1.2 Problem Statement](#12-problem-statement)
+   - [1.3 Proposed Solution](#13-proposed-solution)
+
+2. [User Research](#2-user-research)
+   - [2.1 Primary Research](#21-primary-research)
+   - [2.2 Secondary Research](#22-secondary-research)
+   - [2.3 Key Insights](#23-key-insights)
+
+3. [Persona Creation](#3-persona-creation)
+   - [3.1 Persona 1: Alex Kakaroto](#31-persona-1-alex-kakaroto)
+   - [3.2 Persona 2: Sarah Thompson](#32-persona-2-sarah-thompson)
+   - [3.3 Persona 3: Mark Heisenberg](#33-persona-3-mark-heisenberg)
+
+4. [User Journey Mapping](#4-user-journey-mapping)
+   - [4.1 Journey 1: Alex's Journey Map](#41-journey-1-alexs-journey-map)
+   - [4.2 Journey 2: Sarah's Journey Map](#42-journey-2-sarahs-journey-map)
+   - [4.3 Journey 3: Mark's Journey Map](#43-journey-3-marks-journey-map)
+
+5. [Wireframes](#5-wireframes)
+   - [5.1 Frame 1: Homepage](#51-frame-1-homepage)
+   - [5.2 Frame 2: Dashboard](#52-frame-2-dashboard)
+   - [5.3 Frame 3: Appointments](#53-frame-3-appointments)
+   - [5.4 Frame 4: Medications](#54-frame-4-medications)
+   - [5.5 Frame 5: Reminders](#55-frame-5-reminders)
+   - [5.6 Frame 6: Settings](#56-frame-6-settings)
+   - [5.7 Frame 7: Authentication](#57-frame-7-authentication)
+
+6. [Prototypes](#6-prototypes)
+   - [6.1 Component 1: Homepage](#61-component-1-homepage)
+   - [6.2 Component 2: Dashboard](#62-component-2-dashboard)
+   - [6.3 Component 3: Appointments](#63-component-3-appointments)
+   - [6.4 Component 4: Medications](#64-component-4-medications)
+   - [6.5 Component 5: Reminders](#65-component-5-reminders)
+   - [6.6 Component 6: Settings](#66-component-6-settings)
+   - [6.7 Component 7: Authentication](#67-component-7-authentication)
+
+7. [Usability Testing and Iteration](#7-usability-testing-and-iteration)
+   - [7.1 Testing Plan](#71-testing-plan)
+   - [7.2 Feedback and Iteration](#72-feedback-and-iteration)
+
+8. [Reflection](#8-reflection)
+   - [8.1 The UX Design Process](#81-the-ux-design-process)
+   - [8.2 Discussion](#82-discussion)
+
+9. [References](#9-references)
+
+10. [Explore the Prototype](#10-explore-the-prototype)
+
+---
+
 # 1. Introduction
 ## 1.1 Project Overview
 
@@ -66,41 +122,42 @@ Main findings from the research reveal that users managing chronic conditions fa
 
 # 3. Persona Creation
 The goal behind the three distinct and comprehensive user personas is to ensure that the healthcare app addresses and meets the needs of diverse user needs. These needs include varying health literacy levels, different medication complexity, and distinct comfort with mobile apps. A comprehensive persona set validates that Health Companion must serve multiple user types simultaneously.
-Meet the key user personas that informed the design decisions
-## 3.1 Persona 1: [name_placeholder]
+
+Meet the key user personas that informed the design decisions below
+## 3.1 Persona 1: Alex Kakaroto
 
 ![User Persona 1](/Health-Companion-Super-App/assets/personas/up-1.png)
 Words
 
-## 3.2 Persona 2: [name_placeholder]
+## 3.2 Persona 2: Sarah Thompson
 
 ![User Persona 2](/Health-Companion-Super-App/assets/personas/up-2.png)
 Words
 
-## 3.3 Persona 3: [name_placeholder]
+## 3.3 Persona 3: Mark Heisenberg
 
 ![User Persona 3](/Health-Companion-Super-App/assets/personas/up-3.png)
 Words
 
----
+<!---->
 
 # 4. User Journey Mapping 
-## 4.1 Journey Map 1
+## 4.1 Journey 1: Alex's Journey Map
 
 ![User Journey Map 1](/Health-Companion-Super-App/assets/journey_maps/ujm-1.png)
 Words
 
-## 4.2 Journey Map 2
+## 4.2 Journey 2: Sarah's Journey Map
 
-![User Jouhe hieome apage is the rlney Map 2](/Health-Companion-Super-App/assets/journey_maps/ujm-2.png)
+![User Journey Map 2](/Health-Companion-Super-App/assets/journey_maps/ujm-2.png)
 Words
 
-## 4.3 Journey Map 3
+## 4.3 Journey 3: Mark's Journey Map
 
 ![User Journey Map 3](/Health-Companion-Super-App/assets/journey_maps/ujm-3.png)
-Wordhe dashboard is designed to be the sc
+Words
 
----
+<!---->
 
 # 5. Wireframes
 The following screens showcase the key features of the Health Companion Super App.
@@ -148,7 +205,7 @@ The settings page is meant to offer users extensive configuration of their profi
 
 This final wireframe represents a secure authentication flow for a logout/login and sign up page, presenting an email/username field, a password entry, and minimal additional elements. This page was designed as such with the goal of reducing cognitive load for security-sensitive tasks
 
----
+<!---->
 
 # 6. Prototypes
 ## 6.1 Component 1: Homepage
@@ -193,7 +250,7 @@ Check out the [Authentication](/Health-Companion-Super-App/prototype/showcase/lo
 
 Words
 
----
+<!---->
 
 # 7. Usability Testing and Iteration
 ## 7.1 Testing Plan
@@ -213,7 +270,7 @@ Success metrics included: task completion rates (target: 95%+), time-on-task eff
 
 Usability testing revealed iterative improvements: clearer medication frequency language, simplified appointment rescheduling, enhanced home screen personalization, and improved accessibility for older users. Post-test analysis identified high-value feature requests (integrations with wearables, family sharing improvements, provider messaging) informing product roadmap. Iterative design approach ensured final prototype addressed identified pain points while maintaining interface clarity and accessibility for diverse user base.
 
----
+<!---->
 
 # 8. Reflection
 ## 8.1 The UX Design Process
@@ -228,7 +285,7 @@ Key design challenges included: balancing comprehensive health information needs
 ### 8.2.2 Overcoming the Challenges
 Words
 
----
+<!---->
 
 # 9. References
 
@@ -252,7 +309,7 @@ Words
 
 [10] Brooke, J. (1996). SUS: A "quick and dirty" usability scale. In P. W. Jordan, B. Thomas, B. A. Weerdmeester, & I. L. McClelland (Eds.), *Usability evaluation in industry* (pp. 189-194). London: Taylor & Francis.
 
----
+<!---->
 
 ## 10. Explore the Prototype
 

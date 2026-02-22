@@ -4,18 +4,19 @@
   <meta charset="utf-8">
   <title>Health Companion</title>
   <script type="text/javascript">
-    // This script handles client-side routing for single-page applications on GitHub Pages.
-    // When a route is not found (404), redirect to index.html, which allows React Router
-    // to properly handle the navigation client-side.
-    
-    var path = window.location.pathname;
+    // Store the original pathname (without the base path) in sessionStorage
+    // so the React app can navigate to it after loading
+    var pathname = window.location.pathname;
     var basePath = '/Health-Companion-Super-App/';
+    var route = pathname.replace(basePath, '/');
     
-    // Store the intended path + query + hash in sessionStorage
-    sessionStorage.redirect = path + window.location.search + window.location.hash;
+    // Only store if it looks like an app route (not a static file)
+    if (route && route !== '/' && !route.includes('.html') && !route.includes('.')) {
+      sessionStorage.setItem('pendingPath', route);
+    }
     
-    // Redirect to index.html
-    window.location.replace(basePath + '?redirect=' + encodeURIComponent(path));
+    // Redirect to the home page, React will handle navigation
+    window.location.replace(basePath);
   </script>
 </head>
 <body>
