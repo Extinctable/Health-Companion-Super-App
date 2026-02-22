@@ -17,43 +17,43 @@ Words
 ## 2.1 Primary Research
 Research insights from my comprehensive user survey:
 
-![Survey Result 1](/assets/survey/survey-res-01.png)
+![Survey Result 1](/Health-Companion-Super-App/assets/survey/survey-res-01.png)
 words
-![Survey Result 2](/assets/survey/survey-res-02.png)
+![Survey Result 2](/Health-Companion-Super-App/assets/survey/survey-res-02.png)
 words
-![Survey Result 3](/assets/survey/survey-res-03.png)
+![Survey Result 3](/Health-Companion-Super-App/assets/survey/survey-res-03.png)
 words
-![Survey Result 4](/assets/survey/survey-res-04.png)
+![Survey Result 4](/Health-Companion-Super-App/assets/survey/survey-res-04.png)
 words
-![Survey Result 5](/assets/survey/survey-res-05.png)
+![Survey Result 5](/Health-Companion-Super-App/assets/survey/survey-res-05.png)
 words
-![Survey Result 6](/assets/survey/survey-res-06.png)
+![Survey Result 6](/Health-Companion-Super-App/assets/survey/survey-res-06.png)
 words
-![Survey Result 7](/assets/survey/survey-res-07.png)
+![Survey Result 7](/Health-Companion-Super-App/assets/survey/survey-res-07.png)
 words
-![Survey Result 8](/assets/survey/survey-res-08.png)
+![Survey Result 8](/Health-Companion-Super-App/assets/survey/survey-res-08.png)
 words
-![Survey Result 9](/assets/survey/survey-res-09.png)
+![Survey Result 9](/Health-Companion-Super-App/assets/survey/survey-res-09.png)
 words
-![Survey Result 10](/assets/survey/survey-res-10.png)
+![Survey Result 10](/Health-Companion-Super-App/assets/survey/survey-res-10.png)
 words
-![Survey Result 11](/assets/survey/survey-res-11.png)
+![Survey Result 11](/Health-Companion-Super-App/assets/survey/survey-res-11.png)
 words
-![Survey Result 12](/assets/survey/survey-res-12.png)
+![Survey Result 12](/Health-Companion-Super-App/assets/survey/survey-res-12.png)
 words
-![Survey Result 13](/assets/survey/survey-res-13.png)
+![Survey Result 13](/Health-Companion-Super-App/assets/survey/survey-res-13.png)
 words
-![Survey Result 14](/assets/survey/survey-res-14.png)
+![Survey Result 14](/Health-Companion-Super-App/assets/survey/survey-res-14.png)
 words
-![Survey Result 15](/assets/survey/survey-res-15.png)
+![Survey Result 15](/Health-Companion-Super-App/assets/survey/survey-res-15.png)
 words
-![Survey Result 16](/assets/survey/survey-res-16.png)
+![Survey Result 16](/Health-Companion-Super-App/assets/survey/survey-res-16.png)
 words
-![Survey Result 17](/assets/survey/survey-res-17.png)
+![Survey Result 17](/Health-Companion-Super-App/assets/survey/survey-res-17.png)
 words
-![Survey Result 18](/assets/survey/survey-res-18.png)
+![Survey Result 18](/Health-Companion-Super-App/assets/survey/survey-res-18.png)
 Words
-![Survey Result 19](/assets/survey/survey-res-19.png)
+![Survey Result 19](/Health-Companion-Super-App/assets/survey/survey-res-19.png)
 Words
 
 ## 2.2 Secondary Research
@@ -70,17 +70,17 @@ Words
 Meet the key user personas that informed the design decisions
 ## 3.1 Persona 1: [name_placeholder]
 
-![User Persona 1](/assets/personas/up-1.png)
+![User Persona 1](/Health-Companion-Super-App/assets/personas/up-1.png)
 Words
 
 ## 3.2 Persona 2: [name_placeholder]
 
-![User Persona 2](/assets/personas/up-2.png)
+![User Persona 2](/Health-Companion-Super-App/assets/personas/up-2.png)
 Words
 
 ## 3.3 Persona 3: [name_placeholder]
 
-![User Persona 3](/assets/personas/up-3.png)
+![User Persona 3](/Health-Companion-Super-App/assets/personas/up-3.png)
 Words
 
 ---
@@ -88,17 +88,17 @@ Words
 # User Journey Mapping 
 ## 4.1 Journey Map 1
 
-![User Journey Map 1](/assets/journey_maps/ujm-1.png)
+![User Journey Map 1](/Health-Companion-Super-App/assets/journey_maps/ujm-1.png)
 Words
 
 ## 4.2 Journey Map 2
 
-![User Journey Map 2](/assets/journey_maps/ujm-2.png)
+![User Journey Map 2](/Health-Companion-Super-App/assets/journey_maps/ujm-2.png)
 Words
 
 ## 4.3 Journey Map 3
 
-![User Journey Map 3](/assets/journey_maps/ujm-3.png)
+![User Journey Map 3](/Health-Companion-Super-App/assets/journey_maps/ujm-3.png)
 Words
 
 ---
@@ -107,37 +107,37 @@ Words
 The following screens showcase the key features of the Health Companion Super App.
 ## 5.1 Frame 1
 
-![Homepage](/assets/wireframes/homepage.png)
+![Homepage](/Health-Companion-Super-App/assets/wireframes/homepage.png)
 Words
 
 ## 5.2 Frame 2
 
-![Dashboard](/assets/wireframes/dashboard.png)
+![Dashboard](/Health-Companion-Super-App/assets/wireframes/dashboard.png)
 Words
 
 ## 5.3 Frame 3
 
-![Appointments](/assets/wireframes/appointments.png)
+![Appointments](/Health-Companion-Super-App/assets/wireframes/appointments.png)
 Words
 
 ## 5.4 Frame 4
 
-![Medications](/assets/wireframes/medications.png)
+![Medications](/Health-Companion-Super-App/assets/wireframes/medications.png)
 Words
 
 ## 5.5 Frame 5
 
-![Reminders](/assets/wireframes/reminders.png)
+![Reminders](/Health-Companion-Super-App/assets/wireframes/reminders.png)
 Words
 
 ## 5.6 Frame 6
 
-![Settings](/assets/wireframes/settings.png)
+![Settings](/Health-Companion-Super-App/assets/wireframes/settings.png)
 Words
 
 ## 5.7 Frame 7
 
-![Login/Logout](/assets/wireframes/login-logout.png)
+![Login/Logout](/Health-Companion-Super-App/assets/wireframes/login-logout.png)
 Words
 
 ---
