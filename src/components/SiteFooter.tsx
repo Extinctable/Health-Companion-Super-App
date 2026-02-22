@@ -5,8 +5,9 @@ export default function SiteFooter() {
 		<footer className="border-t bg-background py-8">
 			<div className="container mx-auto px-4 text-center text-sm text-foreground/80">
 				<p>&copy; {new Date().getFullYear()} 
-                    <a href="https://www.github.com/extinctable"> <u>Massimo Caruso</u>.</a> All rights reserved.
+                    <a href="https://www.github.com/extinctable"> <u>Massimo Caruso</u></a>
                 </p>
+				<p>All rights reserved.</p>
 				<div className="mt-4 flex justify-center space-x-4">
 					<Link to="/prototype/about" className="hover:text-foreground">
 						Privacy

@@ -5,7 +5,7 @@ export const siteConfig = {
 		'SOEN 357 Case Study: UX/UI Design of a Health Companion Super App. Concordia University, Winter 2026.',
 	links: {
 		github: 'https://github.com/Extinctable/Health-Companion-Super-App',
-		figma: 'https://www.figma.com/board/HR6b0IrzITP1YSyyUXwuAo/SOEN-357---Mini-Project?node-id=0-1&p=f&t=nZGJS0oIaX5Eaeiq-0'
+		figma: 'https://www.figma.com/board/HR6b0IrzITP1YSyyUXwuAo/SOEN-357---Mini-Project?node-id=16-77&t=nZGJS0oIaX5Eaeiq-0'
 	},
 	keywords:
 		'soen 357, health companion super app, design, ui, ux, user interface, user experience, mini project, mobile application design'

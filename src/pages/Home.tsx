@@ -68,7 +68,7 @@ export default function Home() {
 								className="rounded-sm"
 								width={800}
 								height={450}
-								src="https://embed.figma.com/board/HR6b0IrzITP1YSyyUXwuAo/SOEN-357---Mini-Project?embed-host=share"
+								src="https://embed.figma.com/board/HR6b0IrzITP1YSyyUXwuAo/SOEN-357---Mini-Project?node-id=16-77&embed-host=share"
 								allowFullScreen
 							/>
 						</div>
