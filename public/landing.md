@@ -231,6 +231,8 @@ Check out the [Authentication](https://extinctable.github.io/Health-Companion-Su
 
 ## 6.8 Sketches 
 
+Sketches in this case are redundant because the wireframes were created to closely represent the features that are now implemented within the prototype. The wireframes also closely mimic what sketches would have been. In order to maximize efficiency, I have decided to nullify the creation of the sketches.
+
 ## 6.9 Story board
 
 ![Story board](/Health-Companion-Super-App/assets/storyboard/storyboard-1.png)
@@ -239,7 +241,7 @@ This is Sarah's storyboard, inspired by the user persona of Sarah Thompson
 
 ## 6.10 User Flow Chart
 
-[View the complete User Flow Chart](../docs/user-flow-chart.md)
+![User flow chart](/Health-Companion-Super-App/assets/user-flow-chart/usf-1.png)
 
 This diagram shows all possible user journeys through the Health Companion app, including authentication, feature navigation, action paths for each screen, and task completion flows. The three key user journeys are:
 
