@@ -29,43 +29,68 @@ By reducing the number of steps users need to take and automating routine tracki
 To understand the real challenges patients face, I conducted a comprehensive survey that captured their experiences, pain points, and priorities. Here's what the data revealed:
 
 ![Survey Result 1](/Health-Companion-Super-App/assets/survey/survey-res-01.png)
+**Figure 1**: Survey demographics showing age distribution of respondents
 
 ![Survey Result 2](/Health-Companion-Super-App/assets/survey/survey-res-02.png)
+**Figure 2**: Chronic conditions most commonly managed by respondents
 
 ![Survey Result 3](/Health-Companion-Super-App/assets/survey/survey-res-03.png)
+**Figure 3**: Current tools and platforms used for health management
 
 ![Survey Result 4](/Health-Companion-Super-App/assets/survey/survey-res-04.png)
+**Figure 4**: Frequency of medication adherence issues reported
 
 ![Survey Result 5](/Health-Companion-Super-App/assets/survey/survey-res-05.png)
+**Figure 5**: Time spent managing health tasks weekly
 
 ![Survey Result 6](/Health-Companion-Super-App/assets/survey/survey-res-06.png)
+**Figure 6**: Primary pain points in current health management systems
 
 ![Survey Result 7](/Health-Companion-Super-App/assets/survey/survey-res-07.png)
+**Figure 7**: Desired features for a health management app
 
 ![Survey Result 8](/Health-Companion-Super-App/assets/survey/survey-res-08.png)
+**Figure 8**: Preferred notification frequency for medication reminders
 
 ![Survey Result 9](/Health-Companion-Super-App/assets/survey/survey-res-09.png)
+**Figure 9**: Device preference for accessing health applications
 
 ![Survey Result 10](/Health-Companion-Super-App/assets/survey/survey-res-10.png)
+**Figure 10**: Comfort level with technology adoption
 
 ![Survey Result 11](/Health-Companion-Super-App/assets/survey/survey-res-11.png)
+**Figure 11**: Trust and privacy concerns regarding health data
 
 ![Survey Result 12](/Health-Companion-Super-App/assets/survey/survey-res-12.png)
+**Figure 12**: Experience with appointment scheduling systems
 
 ![Survey Result 13](/Health-Companion-Super-App/assets/survey/survey-res-13.png)
+**Figure 13**: Willingness to share health data with providers
 
 ![Survey Result 14](/Health-Companion-Super-App/assets/survey/survey-res-14.png)
+**Figure 14**: Communication preferences with healthcare providers
 
 ![Survey Result 15](/Health-Companion-Super-App/assets/survey/survey-res-15.png)
+**Figure 15**: Barriers to consistent medication adherence
 
 ![Survey Result 16](/Health-Companion-Super-App/assets/survey/survey-res-16.png)
+**Figure 16**: Interest in integration with wearable devices
 
 ![Survey Result 17](/Health-Companion-Super-App/assets/survey/survey-res-17.png)
+**Figure 17**: Likelihood of recommending a unified health app
 
 ![Survey Result 18](/Health-Companion-Super-App/assets/survey/survey-res-18.png)
+**Figure 18**: Budget willingness for premium health features
 
 ![Survey Result 19](/Health-Companion-Super-App/assets/survey/survey-res-19.png)
+**Figure 19**: Accessibility feature requirements among respondents
 
+The survey results indicate two key user groups: young, tech-savvy users (18-30) who rely on digital tools but struggle with organizing health tasks, and older users (50+) who need accessibility features and simpler interfaces for medication tracking and appointment management. Common pain points included long wait times for provider responses, lack of reminders, and difficulty tracking health data. Most users prefer iOS, and some require voice-over and large-text options. To meet these needs, the app should focus on the following:
+
+- Automated reminders
+- Appointment scheduling
+- Provider communication
+- An intuitive, accessibility-friendly design in its Minimum Viable Product
 
 ## 2.2 Secondary Research
 
