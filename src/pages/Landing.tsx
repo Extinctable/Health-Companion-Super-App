@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
+import { Github, Figma, Rocket } from 'lucide-react';
 
 export default function Landing() {
 	const navigate = useNavigate();
@@ -35,7 +36,7 @@ export default function Landing() {
 		return (
 			<div className="flex h-screen items-center justify-center bg-black">
 				<div className="text-center">
-					<div className="mb-4 inline-block h-8 w-8 animate-spin rounded-full border-4 border-slate-800 border-t-emerald-500"></div>
+					<div className="mb-4 inline-block h-8 w-8 animate-spin rounded-full border-4 border-slate-800 border-t-red-500"></div>
 					<p className="text-slate-400">Loading...</p>
 				</div>
 			</div>
@@ -46,14 +47,43 @@ export default function Landing() {
 		<div className="min-h-screen bg-black">
 			{/* Top Navigation */}
 			<nav className="border-b border-slate-800 bg-slate-950">
-				<div className="mx-auto max-w-4xl px-4 py-4 sm:px-6 lg:px-8">
-					<h1 className="text-2xl font-bold text-white">Health Companion</h1>
+				<div className="mx-auto max-w-6xl px-4 py-4 sm:px-6 lg:px-8">
+					<div className="flex items-center justify-between">
+						<h1 className="text-xl font-bold text-white">Massimo Caruso</h1>
+						<div className="flex items-center gap-4">
+							<button
+								onClick={() => navigate('/prototype')}
+								className="flex items-center gap-2 text-sm text-slate-300 transition-colors hover:text-red-400"
+							>
+								<Rocket className="h-4 w-4" />
+								<span className="hidden sm:inline">Prototype</span>
+							</button>
+							<a
+								href="https://www.figma.com/board/HR6b0IrzITP1YSyyUXwuAo/SOEN-357---Mini-Project?node-id=16-77&t=NAw4MkTIvme063TG-1"
+								target="_blank"
+								rel="noopener noreferrer"
+								className="flex items-center gap-2 text-sm text-slate-300 transition-colors hover:text-red-400"
+							>
+								<Figma className="h-4 w-4" />
+								<span className="hidden sm:inline">Figma</span>
+							</a>
+							<a
+								href="https://github.com/Extinctable/Health-Companion-Super-App"
+								target="_blank"
+								rel="noopener noreferrer"
+								className="flex items-center gap-2 text-sm text-slate-300 transition-colors hover:text-red-400"
+							>
+								<Github className="h-4 w-4" />
+								<span className="hidden sm:inline">GitHub</span>
+							</a>
+						</div>
+					</div>
 				</div>
 			</nav>
 
 			{/* Main Content */}
 			<div className="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">
-				<article className="prose prose-slate max-w-none prose-invert prose-headings:text-white prose-p:text-white prose-li:text-white prose-strong:text-white prose-a:text-emerald-400 hover:prose-a:text-emerald-300">
+				<article className="prose prose-slate max-w-none prose-invert prose-headings:text-white prose-p:text-white prose-li:text-white prose-strong:text-white prose-a:text-red-400 hover:prose-a:text-red-300">
 					<ReactMarkdown
 						components={{
 							h1: ({ ...props }) => <h1 className="scroll-m-20 text-4xl font-bold tracking-tight text-white" {...props} />,
@@ -69,7 +99,7 @@ export default function Landing() {
 								<a
 									href={href}
 									onClick={(e) => href && handleLinkClick(e, href)}
-									className="text-emerald-400 hover:text-emerald-300 underline"
+									className="text-red-400 hover:text-red-300 underline"
 									{...props}
 								>
 									{children}
@@ -85,9 +115,9 @@ export default function Landing() {
 				<div className="mt-12 flex justify-center">
 					<button
 						onClick={() => navigate('/prototype')}
-						className="inline-flex items-center gap-2 rounded-lg bg-emerald-600 px-8 py-3 text-lg font-semibold text-white transition-colors hover:bg-emerald-700 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:ring-offset-2 focus:ring-offset-black"
+						className="inline-flex items-center gap-2 rounded-lg bg-red-600 px-8 py-3 text-lg font-semibold text-white transition-colors hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2 focus:ring-offset-black"
 					>
-						🚀 Start Interactive Prototype
+						Start Interactive Prototype
 					</button>
 				</div>
 			</div>
