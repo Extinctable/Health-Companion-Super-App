@@ -197,7 +197,7 @@ This final wireframe represents a secure authentication flow for a logout/login 
 
 ---
 
-# 6. Prototypes
+# 6. Prototypes, Sketches, Story Board, and User Flow Chart
 ## 6.1 Component 1: Homepage
 
 Check out the [Homepage](https://extinctable.github.io/Health-Companion-Super-App/prototype)
@@ -241,7 +241,7 @@ This is Sarah's storyboard, inspired by the user persona of Sarah Thompson
 
 ## 6.10 User Flow Chart
 
-![User flow chart](/Health-Companion-Super-App/assets/user-flow-chart/usf-1.png)
+![User flow chart](/Health-Companion-Super-App/assets/user_flow_chart/usf-1.png)
 
 This diagram shows all possible user journeys through the Health Companion app, including authentication, feature navigation, action paths for each screen, and task completion flows. The three key user journeys are:
 
