@@ -1,58 +1,58 @@
 # Health Companion Super App - UX Strategy Case Study
 
-## Table of Contents
-1. [Introduction](#introduction)
-    1.1 [Project Overview](#project-overview)
-    1.2 [Problem Statement](#problem-statement)
-    1.3 [Proposed Solution](#proposed-solution)
-2. [User Research](#user-research)
-    2.1 [Primary Research](#primary-research)
-    2.2 [Secondary Research](#secondary-research)
-    2.3 [Key Insights](#key-insights)
-3. [Persona Creation](#persona-creation)
-    3.1 [Persona 1: Alex Kakaroto](#persona-1)
-    3.2 [Persona 2: Sarah Thompson](#persona-2)
-    3.3 [Persona 3: Mark Heisenberg](#persona-3)
-4. [User Journey Mapping](#user-journey-mapping)
-    4.1 [Journey 1: Alex's Journey Map](#journey-1)
-    4.2 [Journey 2: Sarah's Journey Map](#journey-2)
-    4.3 [Journey 3: Mark's Journey Map](#journey-3)
-5. [Wireframes](#wireframes)
-    5.1 [Frame 1: Homepage](#frame-1)
-    5.2 [Frame 2: Dashboard](#frame-2)
-    5.3 [Frame 3: Appointments](#frame-3)
-    5.4 [Frame 4: Medications](#frame-4)
-    5.5 [Frame 5: Reminders](#frame-5)
-    5.6 [Frame 6: Settings](#frame-6)
-    5.7 [Frame 7: Authentication](#frame-7)
-6. [Prototypes](#prototypes)
-    6.1 [Component 1: Homepage](#component-1)
-    6.2 [Component 2: Dashboard](#component-2)
-    6.3 [Component 3: Appointments](#component-3)
-    6.4 [Component 4: Medications](#component-4)
-    6.5 [Component 5: Reminders](#component-5)
-    6.6 [Component 6: Settings](#component-6)
-    6.7 [Component 7: Authentication](#component-7)
-7. [Sketches, Story Board, and User Flow Chart](#sketches-story-board-flow-chart)
-    7.1 [Sketches](#sketches)
-    7.2 [Story board](#story-board)
-    7.3 [User Flow Chart](#user-flow-chart)
-8. [Usability Testing and Iteration](#usability-testing)
-    8.1 [Testing Plan](#testing-plan)
-    8.2 [Feedback and Iteration](#feedback-iteration)
-9. [Reflection](#reflection)
-    9.1 [The UX Design Process](#ux-design-process)
-    9.2 [Discussion](#discussion)
-        9.2.1 [Challenges](#challenges)
-        9.2.2 [Overcoming the Challenges](#overcoming-challenges)
-10. [References](#references)
-11. [Explore the Prototype](#explore)
+---
+
+- [Health Companion Super App - UX Strategy Case Study](#health-companion-super-app---ux-strategy-case-study)
+- [1. Introduction](#1-introduction)
+  - [1.1 Project Overview](#11-project-overview)
+  - [1.2 Problem Statement](#12-problem-statement)
+  - [1.3 Proposed Solution](#13-proposed-solution)
+- [2. User Research](#2-user-research)
+  - [2.1 Primary Research](#21-primary-research)
+  - [2.2 Secondary Research](#22-secondary-research)
+  - [2.3 Key Insights](#23-key-insights)
+- [3. Persona Creation](#3-persona-creation)
+  - [3.1 Persona 1: Alex Kakaroto](#31-persona-1-alex-kakaroto)
+  - [3.2 Persona 2: Sarah Thompson](#32-persona-2-sarah-thompson)
+  - [3.3 Persona 3: Mark Heisenberg](#33-persona-3-mark-heisenberg)
+- [4. User Journey Mapping](#4-user-journey-mapping)
+  - [4.1 Journey 1: Alex's Journey Map](#41-journey-1-alexs-journey-map)
+  - [4.2 Journey 2: Sarah's Journey Map](#42-journey-2-sarahs-journey-map)
+  - [4.3 Journey 3: Mark's Journey Map](#43-journey-3-marks-journey-map)
+- [5. Wireframes](#5-wireframes)
+  - [5.1 Frame 1: Homepage](#51-frame-1-homepage)
+  - [5.2 Frame 2: Dashboard](#52-frame-2-dashboard)
+  - [5.3 Frame 3: Appointments](#53-frame-3-appointments)
+  - [5.4 Frame 4: Medications](#54-frame-4-medications)
+  - [5.5 Frame 5: Reminders](#55-frame-5-reminders)
+  - [5.6 Frame 6: Settings](#56-frame-6-settings)
+  - [5.7 Frame 7: Authentication](#57-frame-7-authentication)
+- [6. Prototypes](#6-prototypes)
+  - [6.1 Component 1: Homepage](#61-component-1-homepage)
+  - [6.2 Component 2: Dashboard](#62-component-2-dashboard)
+  - [6.3 Component 3: Appointments](#63-component-3-appointments)
+  - [6.4 Component 4: Medications](#64-component-4-medications)
+  - [6.5 Component 5: Reminders](#65-component-5-reminders)
+  - [6.6 Component 6: Settings](#66-component-6-settings)
+  - [6.7 Component 7: Authentication](#67-component-7-authentication)
+- [7. Sketches, Story Board, and User Flow Chart](#7-sketches-story-board-and-user-flow-chart)
+  - [7.1 Sketches](#71-sketches)
+  - [7.2 Story board](#72-story-board)
+  - [7.3 User Flow Chart](#73-user-flow-chart)
+- [8. Usability Testing and Iteration](#8-usability-testing-and-iteration)
+  - [8.1 Testing Plan](#81-testing-plan)
+  - [8.2 Feedback and Iteration](#82-feedback-and-iteration)
+- [9. Reflection](#9-reflection)
+  - [9.1 The UX Design Process](#91-the-ux-design-process)
+  - [9.2 Discussion](#92-discussion)
+    - [9.2.1 Challenges](#921-challenges)
+    - [9.2.2 Overcoming the Challenges](#922-overcoming-the-challenges)
+- [10. References](#10-references)
+  - [11. Explore the Prototype](#11-explore-the-prototype)
 
 ---
 
-<a name="introduction"></a>
 # 1. Introduction
-<a name="project-overview"></a>
 ## 1.1 Project Overview
 
 Managing a chronic condition is overwhelming. Patients often find themselves juggling multiple apps and platforms just to keep track of medications, schedule appointments, and communicate with their doctors. 
@@ -75,9 +75,7 @@ By reducing the number of steps users need to take and automating routine tracki
 
 ---
 
-<a name="user-research"></a>
 # 2. User Research
-<a name="primary-research"></a>
 ## 2.1 Primary Research
 
 To understand the real challenges patients face, I conducted a comprehensive survey that captured their experiences, pain points, and priorities. Here's what the data revealed:
@@ -146,41 +144,35 @@ The survey results indicate two key user groups: young, tech-savvy users (18-30)
 - Provider communication
 - An intuitive, accessibility-friendly design in its Minimum Viable Product
 
-<a name="secondary-research"></a>
 ## 2.2 Secondary Research
 
 Beyond surveys, I dove into the broader landscape of digital health. I analyzed existing health apps to see what was working and what wasn't [5][6], explored industry best practices, and reviewed medical literature on chronic disease management [7]. 
 
 Studies consistently highlighted three pillars of effective chronic care: medication adherence, provider coordination, and patient engagement [8][9]. This validated what users were telling me and reinforced that the right design could make a real difference.
 
-<a name="key-insights"></a>
 ## 2.3 Key Insights
 
 Three critical insights emerged from this research. First, users are drowning in fragmentation—they're bouncing between tools and losing track of important information. Second, medication reminders aren't working because they're scattered across different apps or forgotten entirely. Third, patients feel disconnected from their healthcare providers, unable to communicate quickly about concerns or schedule changes. These findings became the blueprint for Health Companion: a centralized hub for all health information, intelligent reminder systems that actually work, and direct channels to healthcare providers, all in one place.
 
 ---
 
-<a name="persona-creation"></a>
 # 3. Persona Creation
 The goal behind the three distinct and comprehensive user personas is to ensure that the healthcare app addresses and meets the needs of diverse user needs. These needs include varying health literacy levels, different medication complexity, and distinct comfort with mobile apps. A comprehensive persona set validates that Health Companion must serve multiple user types simultaneously.
 
 Meet the key user personas that informed the design decisions below:
 
-<a name="persona-1"></a>
 ## 3.1 Persona 1: Alex Kakaroto
 
 ![User Persona 1](/Health-Companion-Super-App/assets/personas/up-1.png)
 
 Alex is a tech-savvy young professional juggling a demanding career with chronic condition management. This persona highlighted the need for mobile-first design with smart automation. Fragmented apps don't work when you're constantly on the move.
 
-<a name="persona-2"></a>
 ## 3.2 Persona 2: Sarah Thompson
 
 ![User Persona 2](/Health-Companion-Super-App/assets/personas/up-2.png)
 
 Sarah is a student who works part time and is managing both her own health and her family's healthcare needs. She needs simplified interfaces that reduce stress and prevent medication mistakes. This persona emphasized that features don't matter if the app doesn't eliminate anxiety and clutter.
 
-<a name="persona-3"></a>
 ## 3.3 Persona 3: Mark Heisenberg
 
 ![User Persona 3](/Health-Companion-Super-App/assets/personas/up-3.png)
@@ -189,23 +181,19 @@ Mark is an older user managing multiple chronic conditions with limited tech exp
 
 ---
 
-<a name="user-journey-mapping"></a>
 # 4. User Journey Mapping 
-<a name="journey-1"></a>
 ## 4.1 Journey 1: Alex's Journey Map
 
 ![User Journey Map 1](/Health-Companion-Super-App/assets/journey_maps/ujm-1.png)
 
 Alex's journey shows the frustration of managing health across fragmented tools while maintaining a busy work schedule. The key pain point is scattered tracking—different apps for glucose readings, insulin logs, and appointments. This validated the need for a unified mobile platform.
 
-<a name="journey-2"></a>
 ## 4.2 Journey 2: Sarah's Journey Map
 
 ![User Journey Map 2](/Health-Companion-Super-App/assets/journey_maps/ujm-2.png)
 
 Sarah's journey highlights the cognitive overload of coordinating personal and family healthcare while working full-time. Pain points include notification overload, medication confusion across family members, and constant anxiety about missed doses. This emphasized the need for family account management and smarter notifications.
 
-<a name="journey-3"></a>
 ## 4.3 Journey 3: Mark's Journey Map
 
 ![User Journey Map 3](/Health-Companion-Super-App/assets/journey_maps/ujm-3.png)
@@ -214,9 +202,7 @@ Mark's journey exposes accessibility barriers in current health apps—small tex
 
 ---
 
-<a name="wireframes"></a>
 # 5. Wireframes
-<a name="frame-1"></a>
 ## 5.1 Frame 1: Homepage
 
 ![Homepage](/Health-Companion-Super-App/assets/wireframes/homepage.png)
@@ -225,42 +211,36 @@ The home page is the landing screen users see upon launch, presenting a personal
 
 The idea here is that the homepage must immediately orient users to their health status and provide friction-free access to most common tasks including medication review, appointment checking, and reminder status.
 
-<a name="frame-2"></a>
 ## 5.2 Frame 2: Dashboard
 
 ![Dashboard](/Health-Companion-Super-App/assets/wireframes/dashboard.png)
 
 The dashboard is designed to be the central information hub consolidating all critical health data: upcoming appointments, medication information, recent health readings, and family members overview. the dashboard serves as single source of data for users' health status, eliminating need to consult multiple apps or paper records.
 
-<a name="frame-3"></a>
 ## 5.3 Frame 3: Appointments
 
 ![Appointments](/Health-Companion-Super-App/assets/wireframes/appointments.png)
 
 The appointments page is meant to be a dedicated appointment management screen displaying tabular information regarding the user's appointment data. This includes upcoming appointments list with provider information, appointment status indicators, and quick rescheduling options. The objective is to eliminate fragmentation for optimal user experience. The fragmentation problems I am trying to solve includes scheduling appointments across phone calls, patient portals, and email, which causes unecessary overhead for a lot of people.
 
-<a name="frame-4"></a>
 ## 5.4 Frame 4: Medications
 
 ![Medications](/Health-Companion-Super-App/assets/wireframes/medications.png)
 
 The medications page is a comprehensive medication management screen presenting a user's current medication list with the name of the medication, dosages, frequencies, and status representing whether the medication is active, paused, or inactive. It also has a quick-add medication functionality. Most importantly,this page provides complete medication transparency supporting adherence tracking and appointment discussions with providers.
 
-<a name="frame-5"></a>
 ## 5.5 Frame 5: Reminders
 
 ![Reminders](/Health-Companion-Super-App/assets/wireframes/reminders.png)
 
 This wireframe represents a consolidated reminder center combining medication reminders, appointment notifications, health goal check-ins, and personalized wellness suggestions. The reminders page addresses critical user needs identified in research: users frequently forget medications and miss appointments due to scattered reminders across multiple apps.
 
-<a name="frame-6"></a>
 ## 5.6 Frame 6: Settings
 
 ![Settings](/Health-Companion-Super-App/assets/wireframes/settings.png)
 
 The settings page is meant to offer users extensive configuration of their profiles and the way they interact with the system. This is meant to enhance accessibility across all platforms to ensure the system is accessible for any type of user no matter their device. The settings page hosts personal information to ensure medical practitioners may properly coordinate with users. As this is only a prototype, there are no security features implemented; however, the sensitive information is meant to be encrypted within servers and is purposely centralized within the user's setting so that only the appropriate user (personal, administrative, medical professional) can view it.
 
-<a name="frame-7"></a>
 ## 5.7 Frame 7: Authentication
 
 ![Login/Logout](/Health-Companion-Super-App/assets/wireframes/login-logout.png)
@@ -269,39 +249,34 @@ This final wireframe represents a secure authentication flow for a logout/login 
 
 ---
 
-<a name="prototypes"></a>
 # 6. Prototypes
-<a name="component-1"></a>
 ## 6.1 Component 1: Homepage
 
 Check out the [Homepage](https://extinctable.github.io/Health-Companion-Super-App/prototype)
 
-<a name="component-2"></a>
+
 ## 6.2 Component 2: Dashboard
 
 Check out the [Dashboard](https://extinctable.github.io/Health-Companion-Super-App/prototype/showcase/dashboard)
 
-<a name="component-3"></a>
+
 ## 6.3 Component 3: Appointments
 
 Check out the [Appointments](https://extinctable.github.io/Health-Companion-Super-App/prototype/showcase/appointments)
 
-<a name="component-4"></a>
+
 ## 6.4 Component 4: Medications
 
 Check out the [Medications](https://extinctable.github.io/Health-Companion-Super-App/prototype/showcase/medications)
 
-<a name="component-5"></a>
 ## 6.5 Component 5: Reminders
 
 Check out the [Reminders](https://extinctable.github.io/Health-Companion-Super-App/prototype/showcase/reminders)
 
-<a name="component-6"></a>
 ## 6.6 Component 6: Settings
 
 Check out the [Settings](https://extinctable.github.io/Health-Companion-Super-App/prototype/showcase/settings)
 
-<a name="component-7"></a>
 ## 6.7 Component 7: Authentication
 
 Check out the [Authentication](https://extinctable.github.io/Health-Companion-Super-App/prototype/showcase/logout)
@@ -309,21 +284,17 @@ Check out the [Authentication](https://extinctable.github.io/Health-Companion-Su
 
 ---
 
-<a name="sketches-story-board-flow-chart"></a>
 # 7. Sketches, Story Board, and User Flow Chart
-<a name="sketches"></a>
 ## 7.1 Sketches 
 
 Sketches in this case are redundant because the wireframes were created to closely represent the features that are now implemented within the prototype. The wireframes are high-fidelity prototypes in which I had made a decision, as the designer, to prioritize over low-fidelity sketches. In order to maximize efficiency, I have decided to nullify the creation of the sketches.
 
-<a name="story-board"></a>
 ## 7.2 Story board
 
 ![Story board](/Health-Companion-Super-App/assets/storyboard/storyboard-1.png)
 
 This is Sarah's storyboard, inspired by the user persona of Sarah Thompson.
 
-<a name="user-flow-chart"></a>
 ## 7.3 User Flow Chart
 
 ![User flow chart](/Health-Companion-Super-App/assets/user_flow_chart/usf-1.png)
@@ -336,9 +307,7 @@ This diagram shows all possible user journeys through the Health Companion app, 
 
 ---
 
-<a name="usability-testing"></a>
 # 8. Usability Testing and Iteration
-<a name="testing-plan"></a>
 ## 8.1 Testing Plan
 
 Before finalizing the design, I needed to validate that the app actually worked for real users. The testing plan had a clear focus: ensure that Health Companion reduces the cognitive burden of managing medications and appointments, while remaining accessible to people of different ages, tech comfort levels, and health literacy. I also wanted to catch any unexpected usage patterns that might break the experience.
@@ -347,7 +316,6 @@ Test participants included friends and family members who all walked through rea
 
 I measured success through multiple lenses: task completion rates (aiming for 95%+), how quickly users could complete tasks, error frequency, and importantly, how overwhelmed they felt using the app versus their current approach. I then asked my family and friends to provide me with deeper insights into what mattered most to them, where they hit points of friction, and how the experience was for them.
 
-<a name="feedback-iteration"></a>
 ## 8.2 Feedback and Iteration
 
 The testing results were invaluable. Users struggled with setting up reminders, so I facilitated the process, added filtering and calls to action for the modification of existing reminders. Scheduling appointments felt clunky, so I streamlined that flow by including multiple ways to interact with an appointment. Some users wanted more personalization on the home screen, and older participants needed larger text and simpler navigation. 
@@ -356,25 +324,20 @@ The feedback genuinely helped me create a better user experience (UX). Because o
 
 ---
 
-<a name="reflection"></a>
 # 9. Reflection
-<a name="ux-design-process"></a>
 ## 9.1 The UX Design Process
 
 This project reinforced something fundamental about UX design: real research beats assumption every time. I started with user surveys instead of with my own idea of what patients need. Those insights became detailed personas and journey maps that reinforced the way I personally thought the system should be handled. The wireframes came directly from those research findings and not from trendy design patterns. Then I tested with actual users, learned where I was wrong, and iterated. This evidence-driven approach meant the final design addressed real problems, not problems I was imagining in my head. 
 
 I prioritized mobile-first because that's where patients will actually use this app—during a doctor's visit, at the pharmacy, at home managing their medications. But I also ensured it works across devices because healthcare happens everywhere. And throughout, I kept accessibility at the center, knowing that users range from tech-savvy 30-year-olds to elderly patients with vision changes and motor limitations. Everyone deserves access to an app that manages their health.
 
-<a name="discussion"></a>
 ## 9.2 Discussion
-<a name="challenges"></a>
 ### 9.2.1 Challenges
 
 Designing for healthcare is uniquely intimidating because failures aren't just annoying but they can potentially be dangerous. Getting the balance right between showing enough information and overwhelming users felt particularly tricky. Patients need detailed medication information to stay safe, but too much detail and they give up. I had to design for everyone: tech-native 25-year-olds and 75-year-olds who still use flip phones, people with medical degrees and people who struggled in school, people with perfect vision and people with macular degeneration. There's no such thing as an average patient as there is too much variety. Also, medication schedules can get incredibly complex, where some people take 8 or more different drugs at different times with different foods and interactions. How do you communicate that clearly without turning the interface into a wall of text? The stakes are high, so my obligation to get it right was equally high. That's why testing was so thorough and the iteration process so rigorous.
 
 Another thing to keep in mind, that this system alone cannot fix, is proper communication from the doctor, nurse, clinic, hospital, etc. For this system to be as robust as its design, medical staff must be able to effectively communicate with patients and this is a big problem that Quebec is facing. I say this because the population is largely disproportional to the medical professionals we have and this creates disparity for a lot of people searching for treatment. The system is designed to ease that feeling of disparity and to make communication seamless, but the medical professionals must be ready to take on a large wave of patients.
 
-<a name="overcoming-challenges"></a>
 ### 9.2.2 Overcoming the Challenges
 
 In the short time that I had, I have come up with what could be a great system if a team of engineers got on it and deployed the application. There is definitely room for improvement and some redundancy given that it's a prototype tailored to UI/UX, but it's overall an efficient system that gets the job done and negates a lot of overhead that millions of people face daily. 
@@ -383,7 +346,6 @@ Testing drove real changes. When older users struggled with interactions, I rede
 
 ---
 
-<a name="references"></a>
 # 10. References
 
 [1] Bodenheimer, T., Lorig, K., Holman, H., & Grumbach, K. (2002). Patient self-management of chronic disease in primary care. *JAMA*, 288(19), 2469-2475. https://doi.org/10.1001/jama.288.19.2469
@@ -406,7 +368,6 @@ Testing drove real changes. When older users struggled with interactions, I rede
 
 ---
 
-<a name="explore"></a>
 ## 11. Explore the Prototype
 
 Ready to experience the interactive prototype? Click the button below to dive in and explore all the features of the Health Companion Super App!
