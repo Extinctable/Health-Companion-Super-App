@@ -22,9 +22,43 @@ export default function Landing() {
 			});
 	}, []);
 
+	// Handle hash navigation after markdown content loads
+	useEffect(() => {
+		if (!isLoading && window.location.hash) {
+			// Small delay to ensure markdown is rendered
+			setTimeout(() => {
+				scrollToHash(window.location.hash);
+			}, 100);
+		}
+	}, [markdownContent, isLoading]);
+
+	const scrollToHash = (hash: string) => {
+		const id = hash.slice(1); // Remove # prefix
+		// Try to find element by id first, then by anchor name
+		const element = document.getElementById(id) || document.querySelector(`a[name="${id}"]`);
+		
+		if (element) {
+			const navHeight = 70; // Fixed nav height + some padding
+			const elementPosition = element.getBoundingClientRect().top;
+			const offsetPosition = elementPosition + window.pageYOffset - navHeight;
+			
+			window.scrollTo({
+				top: offsetPosition,
+				behavior: 'smooth'
+			});
+		}
+	};
+
 	const handleLinkClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
+		// Handle hash/anchor links for TOC navigation
+		if (href.startsWith('#')) {
+			e.preventDefault();
+			scrollToHash(href);
+			// Update URL without page reload
+			window.history.pushState(null, '', href);
+		}
 		// Check if this is an internal prototype link
-		if (href.includes('extinctable.github.io/Health-Companion-Super-App/prototype')) {
+		else if (href.includes('extinctable.github.io/Health-Companion-Super-App/prototype')) {
 			e.preventDefault();
 			// Extract the path after /Health-Companion-Super-App
 			const path = href.split('/Health-Companion-Super-App')[1];
@@ -46,7 +80,7 @@ export default function Landing() {
 	return (
 		<div className="min-h-screen bg-black">
 			{/* Top Navigation */}
-			<nav className="sticky top-0 z-50 border-b border-slate-800 bg-slate-950">
+			<nav className="fixed top-0 z-50 border-b border-slate-800 bg-slate-950">
 				<div className="mx-auto max-w-6xl px-4 py-4 sm:px-6 lg:px-8">
 					<div className="flex items-center justify-between">
 						<h1 className="text-xl font-bold text-white">Massimo Caruso</h1>
