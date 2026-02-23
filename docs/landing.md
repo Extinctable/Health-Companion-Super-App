@@ -29,61 +29,61 @@ By reducing the number of steps users need to take and automating routine tracki
 To understand the real challenges patients face, I conducted a comprehensive survey that captured their experiences, pain points, and priorities. Here's what the data revealed:
 
 ![Survey Result 1](/Health-Companion-Super-App/assets/survey/survey-res-01.png)
-**Figure 1**: Survey demographics showing age distribution of respondents
+**Figure 1**: Age demographics
 
 ![Survey Result 2](/Health-Companion-Super-App/assets/survey/survey-res-02.png)
-**Figure 2**: Chronic conditions most commonly managed by respondents
+**Figure 2**: Employment status
 
 ![Survey Result 3](/Health-Companion-Super-App/assets/survey/survey-res-03.png)
-**Figure 3**: Current tools and platforms used for health management
+**Figure 3**: Is health management assisted
 
 ![Survey Result 4](/Health-Companion-Super-App/assets/survey/survey-res-04.png)
-**Figure 4**: Frequency of medication adherence issues reported
+**Figure 4**: Chronic conditions
 
 ![Survey Result 5](/Health-Companion-Super-App/assets/survey/survey-res-05.png)
-**Figure 5**: Time spent managing health tasks weekly
+**Figure 5**: Accessibility needs
 
 ![Survey Result 6](/Health-Companion-Super-App/assets/survey/survey-res-06.png)
-**Figure 6**: Primary pain points in current health management systems
+**Figure 6**: Current appointment tracking methodology
 
 ![Survey Result 7](/Health-Companion-Super-App/assets/survey/survey-res-07.png)
-**Figure 7**: Desired features for a health management app
+**Figure 7**: Current medication usage tracking methodology
 
 ![Survey Result 8](/Health-Companion-Super-App/assets/survey/survey-res-08.png)
-**Figure 8**: Preferred notification frequency for medication reminders
+**Figure 8**: Challenges contacting healthcare provider 
 
 ![Survey Result 9](/Health-Companion-Super-App/assets/survey/survey-res-09.png)
-**Figure 9**: Device preference for accessing health applications
+**Figure 9**: Forgetfullness when taking medication
 
 ![Survey Result 10](/Health-Companion-Super-App/assets/survey/survey-res-10.png)
-**Figure 10**: Comfort level with technology adoption
+**Figure 10**: Reasons behind forgetfullness when taking medication
 
 ![Survey Result 11](/Health-Companion-Super-App/assets/survey/survey-res-11.png)
-**Figure 11**: Trust and privacy concerns regarding health data
+**Figure 11**: Type of smartphone
 
 ![Survey Result 12](/Health-Companion-Super-App/assets/survey/survey-res-12.png)
-**Figure 12**: Experience with appointment scheduling systems
+**Figure 12**: Comfort with technology
 
 ![Survey Result 13](/Health-Companion-Super-App/assets/survey/survey-res-13.png)
-**Figure 13**: Willingness to share health data with providers
+**Figure 13**: Frequency of non-health related app use
 
 ![Survey Result 14](/Health-Companion-Super-App/assets/survey/survey-res-14.png)
-**Figure 14**: Communication preferences with healthcare providers
+**Figure 14**: Helpful features in a health management system
 
 ![Survey Result 15](/Health-Companion-Super-App/assets/survey/survey-res-15.png)
-**Figure 15**: Barriers to consistent medication adherence
+**Figure 15**: Comfort regarding the use health-related apps
 
 ![Survey Result 16](/Health-Companion-Super-App/assets/survey/survey-res-16.png)
-**Figure 16**: Interest in integration with wearable devices
+**Figure 16**: Any current health-related apps
 
 ![Survey Result 17](/Health-Companion-Super-App/assets/survey/survey-res-17.png)
-**Figure 17**: Likelihood of recommending a unified health app
+**Figure 17**: Which health-related apps
 
 ![Survey Result 18](/Health-Companion-Super-App/assets/survey/survey-res-18.png)
-**Figure 18**: Budget willingness for premium health features
+**Figure 18**: Appointment and medication management frustrations
 
 ![Survey Result 19](/Health-Companion-Super-App/assets/survey/survey-res-19.png)
-**Figure 19**: Accessibility feature requirements among respondents
+**Figure 19**: Health management motivations
 
 The survey results indicate two key user groups: young, tech-savvy users (18-30) who rely on digital tools but struggle with organizing health tasks, and older users (50+) who need accessibility features and simpler interfaces for medication tracking and appointment management. Common pain points included long wait times for provider responses, lack of reminders, and difficulty tracking health data. Most users prefer iOS, and some require voice-over and large-text options. To meet these needs, the app should focus on the following:
 
@@ -228,6 +228,20 @@ Check out the [Settings](https://extinctable.github.io/Health-Companion-Super-Ap
 ## 6.7 Component 7: Authentication
 
 Check out the [Authentication](https://extinctable.github.io/Health-Companion-Super-App/prototype/showcase/logout)
+
+## 6.8 User Flow Chart
+
+[View the complete User Flow Chart](user-flow-chart.md)
+
+This diagram shows all possible user journeys through the Health Companion app, including feature navigation, action paths for each screen, and task completion flows. 
+
+The three key user journeys are:
+
+- **Medication Management** - Track medications, mark doses as taken, add new medications, check refill alerts
+- **Appointment Workflow** - View upcoming appointments, schedule new ones, get directions to clinics
+- **Daily Check-In** - View health data, mark reminders complete, track overall wellness
+
+**Note**: Authentication is included to represent a fully deployed system. Keep in mind that authentication has not been set up given that this is a prototype.
 
 ---
 
