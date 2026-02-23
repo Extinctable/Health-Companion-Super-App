@@ -66,9 +66,10 @@ export default function ShowcaseHome() {
 					</h1>
 
 					<p className="my-12 text-balance text-lg tracking-tight text-foreground/90 md:text-xl">
-						This is the prototype showcase from the "Health Companion" mini-project that builds off of the
-						wireframes from deliverable 3. While this is meant to be a mobile app, it was more convenient to
-						showcase the prototype pages on this website. At any time, click on "App Prototype" at the top
+						This is the prototype showcase for the "Health Companion Super App" mini-project that builds off of the
+						wireframes I have created and embedded within the home page of the application. 
+						This system can be showcased on a desktop or mobile device, the choice is yours. 
+						At any time, click on "Health Companion" at the top
 						left (or "Home" on the site breadcrumbs,) to return to the full case study.
 					</p>
 

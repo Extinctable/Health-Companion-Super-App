@@ -36,7 +36,7 @@ export default function Home() {
 								Explore Prototype
 								<ArrowRight className="ml-1 h-4 w-4" />
 							</Button>
-							<Button variant="outline" href="/prototype/deliverables">
+						<Button variant="outline" href="https://github.com/Extinctable/Health-Companion-Super-App/wiki" target="_blank" rel="noopener noreferrer">
 								Deliverable Reports
 							</Button>
 						</div>

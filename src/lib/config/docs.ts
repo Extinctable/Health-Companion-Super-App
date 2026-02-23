@@ -17,7 +17,7 @@ export const docsConfig: DocsConfig = {
 		},
 		{
 			title: 'Deliverables',
-			href: '/prototype/deliverables'
+			href: 'https://github.com/Extinctable/Health-Companion-Super-App/wiki'
 		}
 	],
 	sidebarNav: [

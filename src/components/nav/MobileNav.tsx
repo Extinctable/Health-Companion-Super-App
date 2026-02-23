@@ -33,20 +33,39 @@ export default function MobileNav() {
 						</Button>
 					</div>
 					<div className="my-6 flex flex-col space-y-3">
-						{docsConfig.mainNav.map((navItem) => (
-							<Link
-								key={navItem.title}
-								to={navItem.href ?? '#'}
-								onClick={close}
-								className={
-									location.pathname === navItem.href
-										? 'text-foreground'
-										: 'text-foreground/80'
-								}
-							>
-								{navItem.title}
-							</Link>
-						))}
+						{docsConfig.mainNav.map((navItem) => {
+							const isExternal = navItem.href?.startsWith('http');
+							
+							if (isExternal) {
+								return (
+									<a
+										key={navItem.title}
+										href={navItem.href}
+										target="_blank"
+										rel="noopener noreferrer"
+										onClick={close}
+										className="text-foreground/80"
+									>
+										{navItem.title}
+									</a>
+								);
+							}
+							
+							return (
+								<Link
+									key={navItem.title}
+									to={navItem.href ?? '#'}
+									onClick={close}
+									className={
+										location.pathname === navItem.href
+											? 'text-foreground'
+											: 'text-foreground/80'
+									}
+								>
+									{navItem.title}
+								</Link>
+							);
+						})}
 					</div>
 				</div>
 			)}

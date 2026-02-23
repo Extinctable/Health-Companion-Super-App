@@ -31,15 +31,14 @@ export default function MainNav() {
 				>
 					Showcase
 				</Link>
-				<Link
-					to="/prototype/deliverables"
-					className={cn(
-						'transition-colors hover:text-foreground/80',
-						location.pathname === '/prototype/deliverables' ? 'text-foreground' : 'text-foreground/60'
-					)}
+				<a
+					href="https://github.com/Extinctable/Health-Companion-Super-App/wiki"
+					target="_blank"
+					rel="noopener noreferrer"
+					className="transition-colors hover:text-foreground/80 text-foreground/60"
 				>
 					Deliverables
-				</Link>
+				</a>
 			</nav>
 		</div>
 	);
