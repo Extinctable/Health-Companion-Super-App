@@ -237,7 +237,7 @@ Sketches in this case are redundant because the wireframes were created to close
 
 ![Story board](/Health-Companion-Super-App/assets/storyboard/storyboard-1.png)
 
-This is Sarah's storyboard, inspired by the user persona of Sarah Thompson
+This is Sarah's storyboard, inspired by the user persona of Sarah Thompson.
 
 ## 6.10 User Flow Chart
 
