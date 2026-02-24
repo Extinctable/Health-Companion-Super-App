@@ -48,7 +48,7 @@
     - [9.2.1 Challenges](#921-challenges)
     - [9.2.2 Overcoming the Challenges](#922-overcoming-the-challenges)
 - [10. References](#10-references)
-  - [11. Explore the Prototype](#11-explore-the-prototype)
+- [11. Explore the Prototype](#11-explore-the-prototype)
 
 ---
 
@@ -368,7 +368,7 @@ Testing drove real changes. When older users struggled with interactions, I rede
 
 ---
 
-## 11. Explore the Prototype
+# 11. Explore the Prototype
 
 Ready to experience the interactive prototype? Click the button below to dive in and explore all the features of the Health Companion Super App!
 

@@ -95,7 +95,7 @@ export default function Landing() {
 					<div className="flex items-center justify-between">
 						<h1 className="text-xl font-bold text-white">
 							<a 
-								href="/" 
+								href="#" 
 								onClick={(e) => {
 									e.preventDefault();
 									window.scrollTo({ top: 0, behavior: 'smooth' });

@@ -4,6 +4,7 @@ import Landing from './pages/Landing';
 import Home from './pages/Home';
 import About from './pages/About';
 import Deliverables from './pages/Deliverables';
+import NotFound from './pages/NotFound';
 import PrototypeLayout from './pages/showcase/PrototypeLayout';
 import ShowcaseHome from './pages/showcase/ShowcaseHome';
 import Appointments from './pages/showcase/Appointments';
@@ -49,6 +50,8 @@ function AppRoutes() {
 				<Route path="settings" element={<Settings />} />
 				<Route path="logout" element={<Logout />} />
 			</Route>
+			{/* Catch-all route for 404 errors */}
+			<Route path="*" element={<NotFound />} />
 		</Routes>
 	);
 }
