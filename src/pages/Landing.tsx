@@ -32,13 +32,23 @@ export default function Landing() {
 		}
 	}, [markdownContent, isLoading]);
 
+	// Convert heading text to slug (matching ReactMarkdown's default behavior)
+	const slugify = (text: string) => {
+		return text
+			.toLowerCase()
+			.replace(/[^\w\s-]/g, '') // Remove special chars except spaces and hyphens
+			.replace(/\s+/g, '-') // Replace spaces with hyphens
+			.replace(/-+/g, '-') // Replace multiple hyphens with single
+			.trim();
+	};
+
 	const scrollToHash = (hash: string) => {
 		const id = hash.slice(1); // Remove # prefix
 		// Try to find element by id first, then by anchor name
 		const element = document.getElementById(id) || document.querySelector(`a[name="${id}"]`);
 		
 		if (element) {
-			const navHeight = 70; // Fixed nav height + some padding
+			const navHeight = 80; // Fixed nav height + some padding
 			const elementPosition = element.getBoundingClientRect().top;
 			const offsetPosition = elementPosition + window.pageYOffset - navHeight;
 			
@@ -83,7 +93,19 @@ export default function Landing() {
 			<nav className="sticky top-0 z-50 border-b border-slate-800 bg-slate-950">
 				<div className="mx-auto max-w-6xl px-4 py-4 sm:px-6 lg:px-8">
 					<div className="flex items-center justify-between">
-						<h1 className="text-xl font-bold text-white"><a href="/">Massimo Caruso</a></h1>
+						<h1 className="text-xl font-bold text-white">
+							<a 
+								href="/" 
+								onClick={(e) => {
+									e.preventDefault();
+									window.scrollTo({ top: 0, behavior: 'smooth' });
+									window.history.pushState(null, '', window.location.pathname);
+								}}
+								className="hover:text-red-400 transition-colors"
+							>
+								Massimo Caruso
+							</a>
+						</h1>
 						<div className="flex items-center gap-4">
 							<button
 								onClick={() => navigate('/prototype')}
@@ -120,9 +142,21 @@ export default function Landing() {
 				<article className="prose prose-slate max-w-none prose-invert prose-headings:text-white prose-p:text-white prose-li:text-white prose-strong:text-white prose-a:text-red-400 hover:prose-a:text-red-300">
 					<ReactMarkdown
 						components={{
-							h1: ({ ...props }) => <h1 className="scroll-m-20 text-4xl font-bold tracking-tight text-white" {...props} />,
-							h2: ({ ...props }) => <h2 className="scroll-m-20 border-b border-slate-800 pb-2 text-3xl font-semibold tracking-tight text-white first:mt-0" {...props} />,
-							h3: ({ ...props }) => <h3 className="scroll-m-20 text-2xl font-semibold tracking-tight text-white" {...props} />,
+							h1: ({ children, ...props }) => {
+								const text = children?.toString() || '';
+								const id = slugify(text);
+								return <h1 id={id} className="scroll-m-20 text-4xl font-bold tracking-tight text-white" {...props}>{children}</h1>;
+							},
+							h2: ({ children, ...props }) => {
+								const text = children?.toString() || '';
+								const id = slugify(text);
+								return <h2 id={id} className="scroll-m-20 border-b border-slate-800 pb-2 text-3xl font-semibold tracking-tight text-white first:mt-0" {...props}>{children}</h2>;
+							},
+							h3: ({ children, ...props }) => {
+								const text = children?.toString() || '';
+								const id = slugify(text);
+								return <h3 id={id} className="scroll-m-20 text-2xl font-semibold tracking-tight text-white" {...props}>{children}</h3>;
+							},
 							p: ({ ...props }) => <p className="leading-7 text-white [&:not(:first-child)]:mt-6" {...props} />,
 							ul: ({ ...props }) => <ul className="my-6 ml-6 list-disc text-white [&>li]:mt-2" {...props} />,
 							li: ({ ...props }) => <li className="text-white" {...props} />,
